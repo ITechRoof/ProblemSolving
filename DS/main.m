@@ -11,6 +11,7 @@
 #import "DoubleLinkedList.h"
 #import "StackUsingArray.h"
 #import "Stack.h"
+#import "QueueUsingArray.h"
 #import "AddTwoList.h"
 #import "SumOfTwoNo.h"
 
@@ -25,8 +26,10 @@ int main(int argc, char * argv[]) {
 //        [StackUsingArray stackImplementation];
 //        [Stack stackImplementation];
         
+        [QueueUsingArray solution];
+        
 //        [AddTwoList solution];
-        [SumOfTwoNo solution];
+//        [SumOfTwoNo solution];
     }
     return 0;
 }

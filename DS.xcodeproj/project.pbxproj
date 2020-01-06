@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
+		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
 		73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6023B4AFB800753D66 /* AppDelegate.m */; };
 		73ECBD6423B4AFB800753D66 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6323B4AFB800753D66 /* SceneDelegate.m */; };
 		73ECBD6723B4AFB800753D66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6623B4AFB800753D66 /* ViewController.m */; };
@@ -26,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		73A50DCD23C2F4AD00ED305E /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		73A50DCF23C2F4CC00ED305E /* QueueUsingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUsingArray.h; sourceTree = "<group>"; };
+		73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueUsingArray.m; sourceTree = "<group>"; };
 		73ECBD5C23B4AFB800753D66 /* DS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73ECBD5F23B4AFB800753D66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		73ECBD6023B4AFB800753D66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -147,6 +153,10 @@
 		73F92FBE23BDAC800099CACD /* Queue */ = {
 			isa = PBXGroup;
 			children = (
+				73A50DCC23C2F4AD00ED305E /* Queue.h */,
+				73A50DCD23C2F4AD00ED305E /* Queue.m */,
+				73A50DCF23C2F4CC00ED305E /* QueueUsingArray.h */,
+				73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -264,11 +274,13 @@
 				73F92FBD23BDAC260099CACD /* StackUsingArray.m in Sources */,
 				73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */,
 				73F92FB223BDA9CE0099CACD /* DoubleLinkedList.m in Sources */,
+				73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */,
 				73ECBD7223B4AFBB00753D66 /* main.m in Sources */,
 				73F92FC823BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m in Sources */,
 				73ECBD7A23B4B1D800753D66 /* LinkedList.m in Sources */,
 				73ECBD6423B4AFB800753D66 /* SceneDelegate.m in Sources */,
 				73F92FCB23BDFB170099CACD /* SumOfTwoNo.m in Sources */,
+				73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */,
 				73F92FAF23BDA9AC0099CACD /* DoubleListNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
