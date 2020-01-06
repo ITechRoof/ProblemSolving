@@ -12,6 +12,7 @@
 #import "StackUsingArray.h"
 #import "Stack.h"
 #import "QueueUsingArray.h"
+#import "Queue.h"
 #import "AddTwoList.h"
 #import "SumOfTwoNo.h"
 
@@ -26,7 +27,8 @@ int main(int argc, char * argv[]) {
 //        [StackUsingArray stackImplementation];
 //        [Stack stackImplementation];
         
-        [QueueUsingArray solution];
+//        [QueueUsingArray solution];
+//        [Queue solution];
         
 //        [AddTwoList solution];
 //        [SumOfTwoNo solution];

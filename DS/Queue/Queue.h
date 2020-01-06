@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Queue : NSObject
 
++ (void)solution;
+
 @end
 
 NS_ASSUME_NONNULL_END

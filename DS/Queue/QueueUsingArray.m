@@ -22,24 +22,24 @@
     self = [super init];
     if(self) {
         self.arr = [[NSMutableArray alloc] init];
-        self.front = -1;
-        self.rear = 0;
+        self.rear = -1;
+        self.front = 0;
     }
     return self;
 }
 - (void)enqueue:(id)value {
     [self.arr addObject:value];
-    self.front++;
+    self.rear++;
 }
 
 - (void)dequeue {
     if(![self isEmpty]) {
-        self.rear++;
+        self.front++;
     }
 }
 
 - (BOOL)isEmpty {
-    return self.front < self.rear;
+    return self.rear < self.front;
 }
 
 - (void)print {
@@ -47,7 +47,7 @@
         NSLog(@"Empty");
         return;
     }
-    for (NSInteger i = self.rear; i <= self.front; i++) {
+    for (NSInteger i = self.front; i <= self.rear; i++) {
         NSLog(@"%@", self.arr[i]);
     }
 }
@@ -71,7 +71,6 @@
     [queue enqueue:@(40)];
 
     [queue print];
-    
 }
 
 @end
