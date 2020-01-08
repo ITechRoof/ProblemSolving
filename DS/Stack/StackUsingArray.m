@@ -32,8 +32,9 @@
     }
 }
 
-- (void)top {
-    NSLog(@"%@", self.arr.lastObject);
+- (id)top {
+//    NSLog(@"%@", self.arr.lastObject);
+    return self.arr.lastObject;
 }
 
 - (void)printStack {

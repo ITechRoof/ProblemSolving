@@ -32,10 +32,11 @@
     self.rear++;
 }
 
-- (void)dequeue {
+- (id)dequeue {
     if(![self isEmpty]) {
-        self.front++;
+        return self.arr[self.front++];
     }
+    return NULL;
 }
 
 - (BOOL)isEmpty {

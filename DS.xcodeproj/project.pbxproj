@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28336DC523C59A2600AB7DF6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC223C59A2600AB7DF6 /* Tree.m */; };
+		28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC323C59A2600AB7DF6 /* TreeNode.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
 		73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6023B4AFB800753D66 /* AppDelegate.m */; };
@@ -28,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28336DC123C59A2600AB7DF6 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		28336DC223C59A2600AB7DF6 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		28336DC323C59A2600AB7DF6 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		28336DC423C59A2600AB7DF6 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		73A50DCD23C2F4AD00ED305E /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		73A50DCF23C2F4CC00ED305E /* QueueUsingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUsingArray.h; sourceTree = "<group>"; };
@@ -164,6 +170,10 @@
 		73F92FBF23BDAC8A0099CACD /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				28336DC423C59A2600AB7DF6 /* Tree.h */,
+				28336DC223C59A2600AB7DF6 /* Tree.m */,
+				28336DC123C59A2600AB7DF6 /* TreeNode.h */,
+				28336DC323C59A2600AB7DF6 /* TreeNode.m */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -268,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73F92FBA23BDABA50099CACD /* Stack.m in Sources */,
+				28336DC523C59A2600AB7DF6 /* Tree.m in Sources */,
 				73ECBD6723B4AFB800753D66 /* ViewController.m in Sources */,
 				73F92FC423BDF2320099CACD /* AddTwoList.m in Sources */,
 				73ECBD7E23B4B9E300753D66 /* ListNode.m in Sources */,
@@ -275,6 +286,7 @@
 				73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */,
 				73F92FB223BDA9CE0099CACD /* DoubleLinkedList.m in Sources */,
 				73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */,
+				28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */,
 				73ECBD7223B4AFBB00753D66 /* main.m in Sources */,
 				73F92FC823BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m in Sources */,
 				73ECBD7A23B4B1D800753D66 /* LinkedList.m in Sources */,
