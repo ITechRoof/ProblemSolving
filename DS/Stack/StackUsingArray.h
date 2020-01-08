@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface StackUsingArray : NSObject
 
+- (void)push:(id)value;
+- (void)pop;
+- (id)top;
+- (BOOL)isEmpty;
+
 + (void)stackImplementation;
 
 @end

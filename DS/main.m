@@ -17,6 +17,8 @@
 #import "QueueUsingArray.h"
 #import "Queue.h"
 
+#import "Tree.h"
+
 #import "AddTwoList.h"
 #import "SumOfTwoNo.h"
 #import "SumOfTwoNoInSortedArray.h"
@@ -34,6 +36,8 @@ int main(int argc, char * argv[]) {
         
 //        [QueueUsingArray solution];
 //        [Queue solution];
+        
+        [Tree treeImplementation];
         
 //        [AddTwoList solution];
 //        [SumOfTwoNo solution];

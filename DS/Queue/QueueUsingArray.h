@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface QueueUsingArray : NSObject
 
+- (void)enqueue:(id)value;
+- (id)dequeue;
+- (BOOL)isEmpty;
+
 + (void)solution;
 
 @end
