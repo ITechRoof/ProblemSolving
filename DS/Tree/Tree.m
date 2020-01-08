@@ -1,3 +1,5 @@
+//Root need not be passed to every method. As tree object is passed, root value can be obtained by self.root. But as the method is written in general to be used for any node in a tree, root is passed everywhere. For instance, same method heightOfTree: can be used for height of tree or height of subtree or any node in a tree.
+
 #import "Tree.h"
 #import "TreeNode.h"
 #import "QueueUsingArray.h"
@@ -17,6 +19,12 @@
         self.root = root;
     }
     return self;
+}
+
+-( id)copyWithZone:(NSZone *)zone {
+    TreeNode *treeRoot = [self.root copy];
+    Tree *tree = [[Tree alloc] initWithRoot:treeRoot];
+    return tree;
 }
 
 - (void)printLevelOrder:(TreeNode *)node {
@@ -159,14 +167,71 @@
 }
 
 - (BOOL)checkSymmetricTree:(TreeNode *)root {
-    return false;
+    
+    QueueUsingArray *q = [[QueueUsingArray alloc] init];
+    
+    if(root == NULL || (root.left == NULL && root.right == NULL)) {
+        return true;
+    }
+    [q enqueue:root.left];
+    [q enqueue:root.right];
+    
+    while(![q isEmpty]) {
+        TreeNode *front = [q dequeue];
+        TreeNode *last = [q dequeue];
+        
+        if(front == NULL && last == NULL) {
+            continue;
+        }else if (front == NULL || last == NULL) {
+            return false;
+        }
+        
+        if(front.data != last.data) {
+            return false;
+        }
+        
+        if (front.left != NULL && last.right != NULL) {
+            [q enqueue:front.left];
+            [q enqueue:last.right];
+        }else  if (front.left != NULL || last.right != NULL){
+            return false;
+        }
+        
+        if (front.right != NULL && last.left != NULL) {
+            [q enqueue:front.right];
+            [q enqueue:last.left];
+        }else  if (front.right != NULL || last.left != NULL){
+            return false;
+        }
+    }
+    
+    return true;
 }
 
-- (BOOL)checkIfTwoTreeMirrorWithRoot1:(TreeNode *)root1 root2:(TreeNode *)root2 {
-    return false;
+- (BOOL)checkIfTwoMirrorWithRoot1:(TreeNode *)root1 root2:(TreeNode *)root2 {
+    if(root1 == NULL && root2 == NULL) {
+        return true;
+    }
+    if(root1 == NULL || root2 == NULL) {
+        return false;
+    }
+    return (root1.data == root2.data) && [self checkIfTwoMirrorWithRoot1:root1.left root2:root2.right] && [self checkIfTwoMirrorWithRoot1:root1.right root2:root2.left];
 }
 
-- (void)
+- (TreeNode *)addTreeWithRoot1:(TreeNode *)root1 root2:(TreeNode *)root2 {
+    if (root1 == NULL && root2 == NULL) {
+        return NULL;
+    }else if(root1 == NULL) {
+        return [root2 copy];
+    }else if(root2 == NULL) {
+        return [root1 copy];
+    }else {
+        TreeNode *node = [[TreeNode alloc] initWithValue:[[NSNumber alloc] initWithInteger:root1.data.integerValue + root2.data.integerValue]];
+        node.left = [self addTreeWithRoot1:root1.left root2:root2.left];
+        node.right = [self addTreeWithRoot1:root1.right root2:root2.right];
+        return node;
+    }
+}
 
 - (TreeNode *)mergeTreeWithRoot1:(TreeNode *)root1 root2:(TreeNode *)root2 {
     if(root1 == NULL && root2 == NULL) {
@@ -243,7 +308,7 @@
 
 + (void)treeImplementation {
     
-    Tree *tree = [Tree getTree];
+//    Tree *tree = [Tree getTree];
     
     //    [tree printLevelOrder:tree.root];
     //    [tree printSprialLevel:tree.root];
@@ -297,19 +362,55 @@
     //    BOOL isSubtree = [tree checkIfSubTreeWithTreeRoot:tree.root subtreeRoot:tree1.root];
     //    isSubtree ? NSLog(@"Subtree") : NSLog(@"Not Subtree");
     
-        
-       //Creating tree
-       TreeNode *root1 = [Tree createSubTreeWithRoot:@15 left:@16 right:@17];
-       //  15
-       // 16 17
+    
+    //    //Creating tree
+    //    TreeNode *root1 = [Tree createSubTreeWithRoot:@15 left:@16 right:@17];
+    //    //  15
+    //    // 16 17
     
     
-       Tree *tree1 = [[Tree alloc] initWithRoot:root1];
+    //    Tree *tree1 = [[Tree alloc] initWithRoot:root1];
     
-       TreeNode *mergeRoot = [tree mergeTreeWithRoot1:tree.root root2:tree1.root];
-        Tree *mergeTree = [[Tree alloc] initWithRoot:mergeRoot];
-       [mergeTree printLevelOrder:mergeTree.root];
-
+    //    TreeNode *mergeRoot = [tree mergeTreeWithRoot1:tree.root root2:tree1.root];
+    //     Tree *mergeTree = [[Tree alloc] initWithRoot:mergeRoot];
+    //    [mergeTree printLevelOrder:mergeTree.root];
+    
+        [Tree treeImplentation1];
+    
 }
 
++ (void)treeImplentation1 {
+    //Creating tree
+    TreeNode *root = [Tree createSubTreeWithRoot:@12 left:@13 right:@13];
+    //  12
+    // 13 13
+    
+    root.left.left = [Tree createSubTreeWithRoot:@15 left:@16 right:@17];
+    root.left.right = [Tree createSubTreeWithRoot:@18 left:@19 right:@20];
+    //          12
+    //      13      13
+    //   15   18
+    // 16 17 19 20
+    
+    root.right.left = [Tree createSubTreeWithRoot:@18 left:@20 right:@19];
+    root.right.right = [Tree createSubTreeWithRoot:@15 left:@17 right:@16];
+    
+    //            12
+    //      13           13
+    //   15   18      18    15
+    // 16 17 19 20  20  19 17 16
+    
+    Tree *tree = [[Tree alloc] initWithRoot:root];
+    
+    // BOOL isSymmetric = [tree checkSymmetricTree:tree.root];
+    // isSymmetric ? NSLog(@"Symmetric ") : NSLog(@"Not Symmetric ");
+    
+    // BOOL isMirror = [tree checkIfTwoMirrorWithRoot1:tree.root.left root2:tree.root.right];
+    // isMirror ? NSLog(@"Mirror ") : NSLog(@"Not Mirror ");
+
+    Tree *tree1 = [Tree getTree];
+    Tree *resultTree = [[Tree alloc] initWithRoot:[tree addTreeWithRoot1:tree1.root root2:tree.root]];
+
+    [resultTree printLevelOrder:resultTree.root];
+}
 @end

@@ -11,4 +11,12 @@
     return self;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    TreeNode *node = [[TreeNode alloc] initWithValue:self.data];
+    node.left = [self.left copy];
+    node.right = [self.right copy];
+    
+    return node;
+}
+
 @end
