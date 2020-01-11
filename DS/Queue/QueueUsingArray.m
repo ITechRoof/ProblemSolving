@@ -22,8 +22,8 @@
     self = [super init];
     if(self) {
         self.arr = [[NSMutableArray alloc] init];
-        self.rear = -1;
-        self.front = 0;
+        self.rear = 0;
+        self.front = -1;
     }
     return self;
 }
@@ -34,7 +34,7 @@
 
 - (id)dequeue {
     if(![self isEmpty]) {
-        return self.arr[self.front++];
+        return self.arr[++self.front];
     }
     return NULL;
 }
@@ -54,7 +54,7 @@
 }
 
 - (NSInteger)sizeOfQueue {
-    return self.rear - self.front + 1;
+    return self.rear - self.front - 1;
 }
 
 + (void)solution {

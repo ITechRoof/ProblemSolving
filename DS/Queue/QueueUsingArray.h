@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)enqueue:(id)value;
 - (id)dequeue;
 - (BOOL)isEmpty;
+- (NSInteger)sizeOfQueue;
 
 + (void)solution;
 
