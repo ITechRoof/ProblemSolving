@@ -40,7 +40,7 @@
 }
 
 - (BOOL)isEmpty {
-    return self.rear < self.front;
+    return (self.rear - self.front) == 1;
 }
 
 - (void)print {
