@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280A944323CDD0E70069225C /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A944223CDD0E70069225C /* BST.m */; };
 		28336DC523C59A2600AB7DF6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC223C59A2600AB7DF6 /* Tree.m */; };
 		28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC323C59A2600AB7DF6 /* TreeNode.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280A944123CDD0E70069225C /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
+		280A944223CDD0E70069225C /* BST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
 		28336DC123C59A2600AB7DF6 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		28336DC223C59A2600AB7DF6 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		28336DC323C59A2600AB7DF6 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 		73F92FBF23BDAC8A0099CACD /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				280A944123CDD0E70069225C /* BST.h */,
+				280A944223CDD0E70069225C /* BST.m */,
 				28336DC423C59A2600AB7DF6 /* Tree.h */,
 				28336DC223C59A2600AB7DF6 /* Tree.m */,
 				28336DC123C59A2600AB7DF6 /* TreeNode.h */,
@@ -292,6 +297,7 @@
 				73ECBD7A23B4B1D800753D66 /* LinkedList.m in Sources */,
 				73ECBD6423B4AFB800753D66 /* SceneDelegate.m in Sources */,
 				73F92FCB23BDFB170099CACD /* SumOfTwoNo.m in Sources */,
+				280A944323CDD0E70069225C /* BST.m in Sources */,
 				73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */,
 				73F92FAF23BDA9AC0099CACD /* DoubleListNode.m in Sources */,
 			);

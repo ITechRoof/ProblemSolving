@@ -18,6 +18,7 @@
 #import "Queue.h"
 
 #import "Tree.h"
+#import "BST.h"
 
 #import "AddTwoList.h"
 #import "SumOfTwoNo.h"
@@ -27,24 +28,22 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         NSLog(@"DS");
-        
+
 //        [LinkedList listImplementation];
 //        [DoubleLinkedList doubleListImplementation];
-        
+
 //        [StackUsingArray stackImplementation];
 //        [Stack stackImplementation];
-        
+
 //        [QueueUsingArray solution];
 //        [Queue solution];
-        
-        [Tree treeImplementation];
-        
+
+//        [Tree treeImplementation];
+        [BST treeImplementation];
+
 //        [AddTwoList solution];
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
     }
     return 0;
 }
-
-
-

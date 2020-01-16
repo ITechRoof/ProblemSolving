@@ -56,6 +56,94 @@
     [self printInOrder:node.right];
 }
 
+- (void)printInOrder {
+
+    if(self.root ==  NULL) {
+        return;
+    }
+
+    StackUsingArray *s = [[StackUsingArray alloc] init];
+    [s push:self.root];
+
+    TreeNode *temp = self.root;
+
+    while(![s isEmpty] || temp != NULL) {
+
+      while(temp != NULL) {
+          [s push:temp];
+          temp = temp.left;
+      }
+
+        temp = [s top];
+        [s pop];
+
+      NSLog(@"%@", temp.data);
+
+      temp = temp.right;
+    }
+}
+
+- (void)printPostOrder {
+
+    if(!self.root) {
+      return;
+    }
+
+    StackUsingArray *s1 = [[StackUsingArray alloc] init];
+    StackUsingArray *s2 = [[StackUsingArray alloc] init];
+
+    [s1 push:self.root];
+    TreeNode *temp;
+
+    while(![s1 isEmpty]) {
+      temp = [s1 top];
+      [s1 pop];
+
+      [s2 push:temp];
+
+      if(temp.left) {
+          [s1 push:temp.left];
+      }
+
+      if(temp.right) {
+          [s1 push:temp.right];
+      }
+    }
+
+    while(![s2 isEmpty]) {
+      temp = [s2 top];
+      [s2 pop];
+      NSLog(@"%@", temp.data);
+    }
+}
+
+- (void)printPreOrder {
+
+    if(!self.root) {
+      return;
+    }
+
+    StackUsingArray *s1 = [[StackUsingArray alloc] init];
+    [s1 push:self.root];
+
+    TreeNode *temp;
+
+    while(![s1 isEmpty]) {
+      temp = [s1 top];
+      [s1 pop];
+
+      NSLog(@"%@", temp.data);
+
+      if(temp.right) {
+          [s1 push:temp.right];
+      }
+
+      if(temp.left) {
+          [s1 push:temp.left];
+      }
+    }
+}
+
 - (void)printPostOrder:(TreeNode *)node {
     if(node ==  NULL) {
         return;
@@ -625,6 +713,9 @@
 
     Tree *tree = [Tree getTree];
 
+    // [tree printPostOrder];
+    // [tree printPreOrder];
+    // [tree printInOrder];
     //    [tree printLevelOrder:tree.root];
     //    [tree printSprialLevel:tree.root];
 
