@@ -24,6 +24,11 @@
 #import "SumOfTwoNo.h"
 #import "SumOfTwoNoInSortedArray.h"
 
+#import "P310.h"
+#import "P563.h"
+#import "P654.h"
+#import "P965.h"
+
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
@@ -39,11 +44,16 @@ int main(int argc, char * argv[]) {
 //        [Queue solution];
 
 //        [Tree treeImplementation];
-        [BST treeImplementation];
+        // [BST treeImplementation];
 
 //        [AddTwoList solution];
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
+
+//        [P310 solution];
+//        [P563 solution];
+//        [P654 solution];
+        [P965 solution];
     }
     return 0;
 }

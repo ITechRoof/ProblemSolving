@@ -1,13 +1,11 @@
 //Root need not be passed to every method. As tree object is passed, root value can be obtained by self.root. But as the method is written in general to be used for any node in a tree, root is passed everywhere. For instance, same method heightOfTree: can be used for height of tree or height of subtree or any node in a tree.
 
 #import "Tree.h"
-#import "TreeNode.h"
 #import "QueueUsingArray.h"
 #import "StackUsingArray.h"
 
 @interface Tree()
 
-@property (nonatomic) TreeNode *root;
 
 @end
 
@@ -25,6 +23,10 @@
     TreeNode *treeRoot = [self.root copy];
     Tree *tree = [[Tree alloc] initWithRoot:treeRoot];
     return tree;
+}
+
+- (void)printLevelOrder {
+    [self printLevelOrder:self.root];
 }
 
 - (void)printLevelOrder:(TreeNode *)node {

@@ -10,6 +10,10 @@
 		280A944323CDD0E70069225C /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A944223CDD0E70069225C /* BST.m */; };
 		28336DC523C59A2600AB7DF6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC223C59A2600AB7DF6 /* Tree.m */; };
 		28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC323C59A2600AB7DF6 /* TreeNode.m */; };
+		28711FC123E1B3FF0017FB61 /* P310.m in Sources */ = {isa = PBXBuildFile; fileRef = 28711FBF23E1B3FF0017FB61 /* P310.m */; };
+		28711FC423E1B4BF0017FB61 /* P654.m in Sources */ = {isa = PBXBuildFile; fileRef = 28711FC323E1B4BF0017FB61 /* P654.m */; };
+		28711FC723E1BA450017FB61 /* P563.m in Sources */ = {isa = PBXBuildFile; fileRef = 28711FC623E1BA450017FB61 /* P563.m */; };
+		28711FCA23E1C2810017FB61 /* P965.m in Sources */ = {isa = PBXBuildFile; fileRef = 28711FC923E1C2810017FB61 /* P965.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
 		73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6023B4AFB800753D66 /* AppDelegate.m */; };
@@ -37,6 +41,14 @@
 		28336DC223C59A2600AB7DF6 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		28336DC323C59A2600AB7DF6 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		28336DC423C59A2600AB7DF6 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		28711FBF23E1B3FF0017FB61 /* P310.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = P310.m; path = LeetCode/Tree/P310.m; sourceTree = "<group>"; };
+		28711FC023E1B3FF0017FB61 /* P310.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P310.h; path = LeetCode/Tree/P310.h; sourceTree = "<group>"; };
+		28711FC223E1B4BF0017FB61 /* P654.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P654.h; path = LeetCode/Tree/P654.h; sourceTree = "<group>"; };
+		28711FC323E1B4BF0017FB61 /* P654.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P654.m; path = LeetCode/Tree/P654.m; sourceTree = "<group>"; };
+		28711FC523E1BA450017FB61 /* P563.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P563.h; path = LeetCode/Tree/P563.h; sourceTree = "<group>"; };
+		28711FC623E1BA450017FB61 /* P563.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P563.m; path = LeetCode/Tree/P563.m; sourceTree = "<group>"; };
+		28711FC823E1C2810017FB61 /* P965.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P965.h; path = LeetCode/Tree/P965.h; sourceTree = "<group>"; };
+		28711FC923E1C2810017FB61 /* P965.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P965.m; path = LeetCode/Tree/P965.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		73A50DCD23C2F4AD00ED305E /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		73A50DCF23C2F4CC00ED305E /* QueueUsingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUsingArray.h; sourceTree = "<group>"; };
@@ -85,6 +97,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28711FBA23E1B2C00017FB61 /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				28711FBB23E1B2C60017FB61 /* Tree */,
+			);
+			name = LeetCode;
+			sourceTree = "<group>";
+		};
+		28711FBB23E1B2C60017FB61 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				28711FC023E1B3FF0017FB61 /* P310.h */,
+				28711FBF23E1B3FF0017FB61 /* P310.m */,
+				28711FC223E1B4BF0017FB61 /* P654.h */,
+				28711FC323E1B4BF0017FB61 /* P654.m */,
+				28711FC523E1BA450017FB61 /* P563.h */,
+				28711FC623E1BA450017FB61 /* P563.m */,
+				28711FC823E1C2810017FB61 /* P965.h */,
+				28711FC923E1C2810017FB61 /* P965.m */,
+			);
+			name = Tree;
+			sourceTree = "<group>";
+		};
 		73ECBD5323B4AFB800753D66 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +221,7 @@
 		73F92FC023BDF20D0099CACD /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				28711FBA23E1B2C00017FB61 /* LeetCode */,
 				73F92FC523BDFAE60099CACD /* Array */,
 				73F92FC123BDF2180099CACD /* LinkedList */,
 			);
@@ -282,14 +318,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28711FC423E1B4BF0017FB61 /* P654.m in Sources */,
 				73F92FBA23BDABA50099CACD /* Stack.m in Sources */,
 				28336DC523C59A2600AB7DF6 /* Tree.m in Sources */,
+				28711FC123E1B3FF0017FB61 /* P310.m in Sources */,
 				73ECBD6723B4AFB800753D66 /* ViewController.m in Sources */,
 				73F92FC423BDF2320099CACD /* AddTwoList.m in Sources */,
+				28711FC723E1BA450017FB61 /* P563.m in Sources */,
 				73ECBD7E23B4B9E300753D66 /* ListNode.m in Sources */,
 				73F92FBD23BDAC260099CACD /* StackUsingArray.m in Sources */,
 				73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */,
 				73F92FB223BDA9CE0099CACD /* DoubleLinkedList.m in Sources */,
+				28711FCA23E1C2810017FB61 /* P965.m in Sources */,
 				73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */,
 				28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */,
 				73ECBD7223B4AFBB00753D66 /* main.m in Sources */,
