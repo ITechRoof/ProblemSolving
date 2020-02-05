@@ -24,11 +24,14 @@
 #import "SumOfTwoNo.h"
 #import "SumOfTwoNoInSortedArray.h"
 
+#import "P100.h"
+#import "P101.h"
 #import "P310.h"
 #import "P563.h"
 #import "P654.h"
 #import "P965.h"
 #import "P979.h"
+#import "P993.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -51,11 +54,14 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
 
+//          [P100 solution];
+        // [P101 solution];
 //        [P310 solution];
 //        [P563 solution];
 //        [P654 solution];
         // [P965 solution];
-        [P979 solution];
+        // [P979 solution];
+        [P993 solution];
     }
     return 0;
 }
