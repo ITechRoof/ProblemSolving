@@ -26,6 +26,9 @@
 		28EA257423EC03EA000D6774 /* P814.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA257323EC03EA000D6774 /* P814.m */; };
 		28EA257723EC18B7000D6774 /* P572.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA257623EC18B7000D6774 /* P572.m */; };
 		28EA257A23EC1DE6000D6774 /* P114.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA257923EC1DE6000D6774 /* P114.m */; };
+		28EA257D23ED07B9000D6774 /* P199.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA257C23ED07B9000D6774 /* P199.m */; };
+		28EA258023ED0A97000D6774 /* P1261.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA257F23ED0A97000D6774 /* P1261.m */; };
+		28EA258323ED20C9000D6774 /* P617.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EA258223ED20C9000D6774 /* P617.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
 		73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73ECBD6023B4AFB800753D66 /* AppDelegate.m */; };
@@ -85,6 +88,12 @@
 		28EA257623EC18B7000D6774 /* P572.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P572.m; path = LeetCode/Tree/P572.m; sourceTree = "<group>"; };
 		28EA257823EC1DE6000D6774 /* P114.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P114.h; path = LeetCode/Tree/P114.h; sourceTree = "<group>"; };
 		28EA257923EC1DE6000D6774 /* P114.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P114.m; path = LeetCode/Tree/P114.m; sourceTree = "<group>"; };
+		28EA257B23ED07B9000D6774 /* P199.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P199.h; path = LeetCode/Tree/P199.h; sourceTree = "<group>"; };
+		28EA257C23ED07B9000D6774 /* P199.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P199.m; path = LeetCode/Tree/P199.m; sourceTree = "<group>"; };
+		28EA257E23ED0A97000D6774 /* P1261.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P1261.h; path = LeetCode/Tree/P1261.h; sourceTree = "<group>"; };
+		28EA257F23ED0A97000D6774 /* P1261.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P1261.m; path = LeetCode/Tree/P1261.m; sourceTree = "<group>"; };
+		28EA258123ED20C9000D6774 /* P617.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P617.h; path = LeetCode/Tree/P617.h; sourceTree = "<group>"; };
+		28EA258223ED20C9000D6774 /* P617.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P617.m; path = LeetCode/Tree/P617.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		73A50DCD23C2F4AD00ED305E /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
 		73A50DCF23C2F4CC00ED305E /* QueueUsingArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QueueUsingArray.h; sourceTree = "<group>"; };
@@ -176,6 +185,12 @@
 				28EA257623EC18B7000D6774 /* P572.m */,
 				28EA257823EC1DE6000D6774 /* P114.h */,
 				28EA257923EC1DE6000D6774 /* P114.m */,
+				28EA257B23ED07B9000D6774 /* P199.h */,
+				28EA257C23ED07B9000D6774 /* P199.m */,
+				28EA257E23ED0A97000D6774 /* P1261.h */,
+				28EA257F23ED0A97000D6774 /* P1261.m */,
+				28EA258123ED20C9000D6774 /* P617.h */,
+				28EA258223ED20C9000D6774 /* P617.m */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -390,6 +405,7 @@
 				73F92FC423BDF2320099CACD /* AddTwoList.m in Sources */,
 				28711FC723E1BA450017FB61 /* P563.m in Sources */,
 				73ECBD7E23B4B9E300753D66 /* ListNode.m in Sources */,
+				28EA258023ED0A97000D6774 /* P1261.m in Sources */,
 				73F92FBD23BDAC260099CACD /* StackUsingArray.m in Sources */,
 				73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */,
 				28EA257423EC03EA000D6774 /* P814.m in Sources */,
@@ -403,6 +419,8 @@
 				73ECBD7223B4AFBB00753D66 /* main.m in Sources */,
 				28B11AE423EBCCBB006E0A5E /* P226.m in Sources */,
 				73F92FC823BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m in Sources */,
+				28EA258323ED20C9000D6774 /* P617.m in Sources */,
+				28EA257D23ED07B9000D6774 /* P199.m in Sources */,
 				73ECBD7A23B4B1D800753D66 /* LinkedList.m in Sources */,
 				28B11AE723EBD9C3006E0A5E /* P110.m in Sources */,
 				73ECBD6423B4AFB800753D66 /* SceneDelegate.m in Sources */,

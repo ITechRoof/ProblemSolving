@@ -28,11 +28,13 @@
 #import "P101.h"
 #import "P110.h"
 #import "P114.h"
+#import "P199.h"
 #import "P226.h"
 #import "P310.h"
 #import "P538.h"
 #import "P563.h"
 #import "P572.h"
+#import "P617.h"
 #import "P654.h"
 #import "P662.h"
 #import "P665.h"
@@ -40,6 +42,7 @@
 #import "P965.h"
 #import "P979.h"
 #import "P993.h"
+#import "P1261.h"
 
 
 int main(int argc, char * argv[]) {
@@ -66,12 +69,14 @@ int main(int argc, char * argv[]) {
 //        [P100 solution];
 //        [P101 solution];
 //        [P110 solution];
-[P114 solution];
+// [P114 solution];
+// [P199 solution];
 //        [P226 solution];
 //        [P310 solution];
 //        [P538 solution];
 //        [P563 solution];
 // [P572 solution];
+        [P617 solution];
 //        [P662 solution];
         // [P665 solution];
 //        [P654 solution];
@@ -79,6 +84,7 @@ int main(int argc, char * argv[]) {
 //        [P965 solution];
 //        [P979 solution];
 //        [P993 solution];
+//[P1261 solution];
     }
     return 0;
 }
