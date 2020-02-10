@@ -44,7 +44,7 @@
 #import "P993.h"
 #import "P1104.h"
 #import "P1261.h"
-
+#import "P1339.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -85,8 +85,9 @@ int main(int argc, char * argv[]) {
 //        [P965 solution];
 //        [P979 solution];
 //        [P993 solution];
-        [P1104 solution];
+//        [P1104 solution];
 //[P1261 solution];
+        [P1339 solution];
     }
     return 0;
 }
