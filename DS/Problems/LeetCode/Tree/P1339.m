@@ -45,6 +45,12 @@
 #import "P1339.h"
 #import "Tree.h"
 
+@interface P1339()
+
+@property NSMapTable *sumMap;
+
+@end
+
 @implementation P1339
 
 - (NSInteger)getSum:(TreeNode *)node
@@ -52,11 +58,20 @@
     if(node == NULL)
     {
         return 0;
-    }else if(node.left == NULL && node.right == NULL)
-    {
-        return node.data.integerValue;
     }
-    return node.data.integerValue + [self getSum:node.left] + [self getSum:node.right];
+    if([self.sumMap objectForKey:node])
+    {
+      return ((NSNumber *)[self.sumMap objectForKey:node]).integerValue;
+    }
+
+    NSInteger sum = node.data.integerValue + [self getSum:node.left] + [self getSum:node.right];
+    if(!self.sumMap)
+    {
+        self.sumMap = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsWeakMemory valueOptions:NSPointerFunctionsWeakMemory capacity:100];
+    }
+    [self.sumMap setObject:[NSNumber numberWithInteger:sum] forKey:node];
+
+    return sum;
 }
 
 - (void)maxProduct:(TreeNode *)node totalSum:(NSInteger)totalSum product:(NSInteger *)maxProduct
