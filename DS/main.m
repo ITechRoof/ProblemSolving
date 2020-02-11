@@ -30,6 +30,7 @@
 #import "P110.h"
 #import "P114.h"
 #import "P199.h"
+#import "P222.h"
 #import "P226.h"
 #import "P310.h"
 #import "P538.h"
@@ -68,12 +69,13 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
 //
-        [P98 solution];
+//        [P98 solution];
 //        [P100 solution];
 //        [P101 solution];
 //        [P110 solution];
 // [P114 solution];
 // [P199 solution];
+        [P222 solution];
 //        [P226 solution];
 //        [P310 solution];
 //        [P538 solution];
