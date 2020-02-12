@@ -11,6 +11,11 @@
     return self;
 }
 
+- (BOOL)isLeaf
+{
+    return self.left == NULL && self.right == NULL;
+}
+
 - (id)copyWithZone:(NSZone *)zone {
     TreeNode *node = [[TreeNode alloc] initWithValue:self.data];
     node.left = [self.left copy];

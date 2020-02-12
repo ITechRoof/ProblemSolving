@@ -9,6 +9,7 @@ Tree
 P98 - Validate Binary Search Tree (Medium)
 P100 - Same tree (Easy)
 P101 - Symmetric tree (Easy)
+P104 - Maximum Depth of Binary Tree (Easy)
 P110 - Is balanced tree (Easy)
 P114 - Flatten to linked list (Medium)
 P199 - Print Right View (Medium)

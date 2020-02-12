@@ -8,5 +8,6 @@
 
 - (instancetype)initWithValue:(NSNumber *)value;
 - (id)copyWithZone:(NSZone *)zone;
+- (BOOL)isLeaf;
 
 @end
