@@ -3,6 +3,7 @@
 	Stack
 	Queue
 	Tree
+	N-ary Tree
 
 # LeetCode
 ## Tree
