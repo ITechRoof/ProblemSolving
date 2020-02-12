@@ -26,6 +26,7 @@
 	P662 - Maximum width (Medium)
 	P665 - Print tree in matrix (Medium)
 	P814 - Binary tree pruning (Medium)
+	P897 - Increasing Order Search Tree (Easy)
 	P958 - Check Completeness of a Binary Tree (Medium)
 	P965 - Univalued Binary Tree (Easy)
 	P979 - Distribute Coins (Medium)
