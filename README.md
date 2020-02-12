@@ -11,7 +11,7 @@
 	P100 - Same tree (Easy)
 	P101 - Symmetric tree (Easy)
 	P110 - Is balanced tree (Easy)
-  P104 - Maximum Depth of Binary Tree (Easy)
+  	P104 - Maximum Depth of Binary Tree (Easy)
 	P114 - Flatten to linked list (Medium)
 	P199 - Print Right View (Medium)
 	P222 - Count Complete Tree Nodes (Medium)
