@@ -86,9 +86,9 @@ int main(int argc, char * argv[]) {
         // [P199 solution];
         //        [P222 solution];
         //        [P226 solution];
-        //        [P310 solution];
+                [P310 solution];
         //        [P538 solution];
-        [P558 solution];
+//        [P558 solution];
         //        [P563 solution];
         // [P572 solution];
         //        [P589 solution];
