@@ -35,6 +35,7 @@
 #import "P226.h"
 #import "P310.h"
 #import "P538.h"
+#import "P558.h"
 #import "P563.h"
 #import "P572.h"
 #import "P589.h"
@@ -59,53 +60,54 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         NSLog(@"DS");
-
-//        [LinkedList listImplementation];
-//        [DoubleLinkedList doubleListImplementation];
-//
-//        [StackUsingArray stackImplementation];
-//        [Stack stackImplementation];
-//
-//        [QueueUsingArray solution];
-//        [Queue solution];
-//
-//        [Tree treeImplementation];
-//        [BST treeImplementation];
-//
-//        [AddTwoList solution];
-//        [SumOfTwoNo solution];
-//        [SumOfTwoNoInSortedArray solution];
-//
-//        [P98 solution];
-//        [P100 solution];
-//        [P101 solution];
-//        [P104 solution];
-//        [P110 solution];
-// [P114 solution];
-// [P199 solution];
-//        [P222 solution];
-//        [P226 solution];
-//        [P310 solution];
-//        [P538 solution];
-//        [P563 solution];
-// [P572 solution];
-//        [P589 solution];
-//        [P590 solution];
-//        [P617 solution];
-//        [P662 solution];
+        
+        //        [LinkedList listImplementation];
+        //        [DoubleLinkedList doubleListImplementation];
+        //
+        //        [StackUsingArray stackImplementation];
+        //        [Stack stackImplementation];
+        //
+        //        [QueueUsingArray solution];
+        //        [Queue solution];
+        //
+        //        [Tree treeImplementation];
+        //        [BST treeImplementation];
+        //
+        //        [AddTwoList solution];
+        //        [SumOfTwoNo solution];
+        //        [SumOfTwoNoInSortedArray solution];
+        //
+        //        [P98 solution];
+        //        [P100 solution];
+        //        [P101 solution];
+        //        [P104 solution];
+        //        [P110 solution];
+        // [P114 solution];
+        // [P199 solution];
+        //        [P222 solution];
+        //        [P226 solution];
+        //        [P310 solution];
+        //        [P538 solution];
+        [P558 solution];
+        //        [P563 solution];
+        // [P572 solution];
+        //        [P589 solution];
+        //        [P590 solution];
+        //        [P617 solution];
+        //        [P662 solution];
         // [P665 solution];
-//        [P654 solution];
-// [P814 solution];
-//        [P897 solution];
-        [P919 solution];
-//        [P958 solution];
-//        [P965 solution];
-//        [P979 solution];
-//        [P993 solution];
-//        [P1028 solution];
-//        [P1104 solution];
-//[P1261 solution];
-//        [P1339 solution];
+        //        [P654 solution];
+        // [P814 solution];
+        //        [P897 solution];
+        //        [P919 solution];
+        //        [P958 solution];
+        //        [P965 solution];
+        //        [P979 solution];
+        //        [P993 solution];
+        //        [P1028 solution];
+        //        [P1104 solution];
+        //[P1261 solution];
+        //        [P1339 solution];
     }
     return 0;
 }

@@ -17,6 +17,7 @@
 	P222 - Count Complete Tree Nodes (Medium)
 	P226 - Invert tree (Easy)
 	P538 - convert to greatest BST (Easy)
+	P558 - Quad Tree Intersection (Easy)
 	P563 - Binary Tree Tilt (Easy)
 	P572 - Is subtree (Easy)
 	P589 - N-ary Tree Preorder Traversal (Easy)

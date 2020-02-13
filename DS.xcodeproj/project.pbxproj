@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		280A944323CDD0E70069225C /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A944223CDD0E70069225C /* BST.m */; };
+		282760BE23F5421B00502FFD /* P558.m in Sources */ = {isa = PBXBuildFile; fileRef = 282760BD23F5421B00502FFD /* P558.m */; };
 		28336DC523C59A2600AB7DF6 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC223C59A2600AB7DF6 /* Tree.m */; };
 		28336DC623C59A2600AB7DF6 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28336DC323C59A2600AB7DF6 /* TreeNode.m */; };
 		2841F3F023EBE37000096952 /* P662.m in Sources */ = {isa = PBXBuildFile; fileRef = 2841F3EF23EBE37000096952 /* P662.m */; };
@@ -65,6 +66,8 @@
 /* Begin PBXFileReference section */
 		280A944123CDD0E70069225C /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
 		280A944223CDD0E70069225C /* BST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
+		282760BC23F5421B00502FFD /* P558.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P558.h; path = LeetCode/Tree/P558.h; sourceTree = "<group>"; };
+		282760BD23F5421B00502FFD /* P558.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P558.m; path = LeetCode/Tree/P558.m; sourceTree = "<group>"; };
 		28336DC123C59A2600AB7DF6 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		28336DC223C59A2600AB7DF6 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 		28336DC323C59A2600AB7DF6 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
@@ -252,6 +255,8 @@
 				2847AB9A23F42504004C9A81 /* P897.m */,
 				2847AB9C23F4FABB004C9A81 /* P919.h */,
 				2847AB9D23F4FABB004C9A81 /* P919.m */,
+				282760BC23F5421B00502FFD /* P558.h */,
+				282760BD23F5421B00502FFD /* P558.m */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -479,6 +484,7 @@
 				73ECBD7E23B4B9E300753D66 /* ListNode.m in Sources */,
 				28EA258023ED0A97000D6774 /* P1261.m in Sources */,
 				2847AB9E23F4FABB004C9A81 /* P919.m in Sources */,
+				282760BE23F5421B00502FFD /* P558.m in Sources */,
 				73F92FBD23BDAC260099CACD /* StackUsingArray.m in Sources */,
 				73ECBD6123B4AFB800753D66 /* AppDelegate.m in Sources */,
 				28EA257423EC03EA000D6774 /* P814.m in Sources */,
