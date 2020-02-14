@@ -32,6 +32,7 @@
 	P919 - Complete Binary Tree Inserter (Medium)  
 	P958 - Check Completeness of a Binary Tree (Medium)
 	P965 - Univalued Binary Tree (Easy)
+	P968 - Binary Tree Cameras (Hard)
 	P979 - Distribute Coins (Medium)
 	P993 - Cousins (Easy)
 	P1028 -  Recover a Tree From Preorder Traversal (Hard)
