@@ -27,6 +27,7 @@
 	P617 - Merge Tree (Easy)
 	P654 - Maximum Binary Tree (Medium)
 	P662 - Maximum width (Medium)
+	P663 - Equal Tree Partition (Medium)
 	P665 - Print tree in matrix (Medium)
 	P814 - Binary tree pruning (Medium)
 	P897 - Increasing Order Search Tree (Easy)
