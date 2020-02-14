@@ -17,6 +17,7 @@
 	P222 - Count Complete Tree Nodes (Medium)
 	P226 - Invert tree (Easy)
 	P310 - Minimum Height Trees (Medium)
+	P366 - Find Leaves of Binary Tree (Medium)
 	P538 - convert to greatest BST (Easy)
 	P558 - Quad Tree Intersection (Easy)
 	P563 - Binary Tree Tilt (Easy)
