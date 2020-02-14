@@ -36,11 +36,13 @@
 #import "P310.h"
 #import "P366.h"
 #import "P538.h"
+#import "P545.h"
 #import "P558.h"
 #import "P563.h"
 #import "P572.h"
 #import "P589.h"
 #import "P590.h"
+#import "P608.h"
 #import "P617.h"
 #import "P654.h"
 #import "P662.h"
@@ -92,14 +94,16 @@ int main(int argc, char * argv[]) {
 //                [P310 solution];
         // [P366 solution];
         //        [P538 solution];
+//        [P545 solution];
 //        [P558 solution];
         //        [P563 solution];
         // [P572 solution];
         //        [P589 solution];
         //        [P590 solution];
+        [P608 solution];
         //        [P617 solution];
         //        [P662 solution];
-         [P663 solution];
+//         [P663 solution];
         // [P665 solution];
         //        [P654 solution];
         // [P814 solution];
