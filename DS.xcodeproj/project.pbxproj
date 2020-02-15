@@ -33,6 +33,7 @@
 		2879BBCC23F6AB91007CDC51 /* P663.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879BBCB23F6AB91007CDC51 /* P663.m */; };
 		2879BBCF23F6ADC1007CDC51 /* P545.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879BBCE23F6ADC0007CDC51 /* P545.m */; };
 		2879BBD223F6B933007CDC51 /* P608.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879BBD123F6B933007CDC51 /* P608.m */; };
+		2879BBD523F6F4FC007CDC51 /* P549.m in Sources */ = {isa = PBXBuildFile; fileRef = 2879BBD423F6F4FC007CDC51 /* P549.m */; };
 		28B11AD623E96792006E0A5E /* P101.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B11AD523E96792006E0A5E /* P101.m */; };
 		28B11AD923E979BF006E0A5E /* P100.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B11AD823E979BF006E0A5E /* P100.m */; };
 		28B11ADC23E97BA8006E0A5E /* P993.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B11ADB23E97BA8006E0A5E /* P993.m */; };
@@ -121,6 +122,8 @@
 		2879BBCE23F6ADC0007CDC51 /* P545.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P545.m; path = LeetCode/Tree/P545.m; sourceTree = "<group>"; };
 		2879BBD023F6B933007CDC51 /* P608.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P608.h; path = LeetCode/Tree/P608.h; sourceTree = "<group>"; };
 		2879BBD123F6B933007CDC51 /* P608.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P608.m; path = LeetCode/Tree/P608.m; sourceTree = "<group>"; };
+		2879BBD323F6F4FC007CDC51 /* P549.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P549.h; path = LeetCode/Tree/P549.h; sourceTree = "<group>"; };
+		2879BBD423F6F4FC007CDC51 /* P549.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P549.m; path = LeetCode/Tree/P549.m; sourceTree = "<group>"; };
 		28B11AD423E96792006E0A5E /* P101.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P101.h; path = LeetCode/Tree/P101.h; sourceTree = "<group>"; };
 		28B11AD523E96792006E0A5E /* P101.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = P101.m; path = LeetCode/Tree/P101.m; sourceTree = "<group>"; };
 		28B11AD723E979BF006E0A5E /* P100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P100.h; path = LeetCode/Tree/P100.h; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 				2879BBCE23F6ADC0007CDC51 /* P545.m */,
 				2879BBD023F6B933007CDC51 /* P608.h */,
 				2879BBD123F6B933007CDC51 /* P608.m */,
+				2879BBD323F6F4FC007CDC51 /* P549.h */,
+				2879BBD423F6F4FC007CDC51 /* P549.m */,
 			);
 			name = Tree;
 			sourceTree = "<group>";
@@ -531,6 +536,7 @@
 				28EA258323ED20C9000D6774 /* P617.m in Sources */,
 				2847AB8623F3C926004C9A81 /* P958.m in Sources */,
 				28EA257D23ED07B9000D6774 /* P199.m in Sources */,
+				2879BBD523F6F4FC007CDC51 /* P549.m in Sources */,
 				73ECBD7A23B4B1D800753D66 /* LinkedList.m in Sources */,
 				28B11AE723EBD9C3006E0A5E /* P110.m in Sources */,
 				73ECBD6423B4AFB800753D66 /* SceneDelegate.m in Sources */,
