@@ -35,28 +35,8 @@
 //The height of a rooted tree is the number of edges on the longest downward path between the root and a leaf.
 
 #import "P310.h"
+#import "Edge.h"
 
-@interface Edge:NSObject
-
-@property (nonatomic) NSInteger startVertex;
-@property (nonatomic) NSInteger endVertex;
-
-@end
-
-@implementation Edge
-
-- (instancetype)initWithStartVertex:(NSInteger)start endVertex:(NSInteger)end
-{
-    self = [super init];
-    if(self)
-    {
-        self.startVertex = start;
-        self.endVertex = end;
-    }
-    return self;
-}
-
-@end
 @implementation P310
 
 - (NSArray *)minimumHeightTreeForNode:(NSInteger)nodeCount edges:(NSArray <Edge*> *)edges

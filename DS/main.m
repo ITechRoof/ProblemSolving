@@ -59,6 +59,7 @@
 #import "P993.h"
 #import "P1028.h"
 #import "P1104.h"
+#import "P1245.h"
 #import "P1261.h"
 #import "P1339.h"
 
@@ -76,7 +77,7 @@ int main(int argc, char * argv[]) {
         //        [QueueUsingArray solution];
         //        [Queue solution];
         //
-        //        [Tree treeImplementation];
+//                [Tree treeImplementation];
         //        [BST treeImplementation];
         //
         //        [AddTwoList solution];
@@ -96,7 +97,7 @@ int main(int argc, char * argv[]) {
         // [P366 solution];
         //        [P538 solution];
 //        [P545 solution];
-        [P549 solution];
+//        [P549 solution];
 //        [P558 solution];
         //        [P563 solution];
         // [P572 solution];
@@ -118,6 +119,7 @@ int main(int argc, char * argv[]) {
         //        [P993 solution];
         //        [P1028 solution];
         //        [P1104 solution];
+        [P1245 solution];
         //[P1261 solution];
         //        [P1339 solution];
     }

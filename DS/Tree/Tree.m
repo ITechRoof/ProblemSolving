@@ -670,6 +670,23 @@
 
 }
 
+- (NSInteger)depthtOfTree:(TreeNode *)node {
+    if(node ==  NULL) {
+        return -1;
+    }
+    return MAX([self depthtOfTree:node.left], [self depthtOfTree:node.right]) + 1;
+}
+- (NSInteger)treeDiameter:(TreeNode *)node
+{
+    if(node == NULL)
+    {
+        return -1;
+    }
+    
+    NSInteger currentDiameter =  [self heightOfTree:node.left] + [self heightOfTree:node.right];
+    
+    return MAX(currentDiameter, MAX([self treeDiameter:node.left], [self treeDiameter:node.right]));
+}
 
 + (TreeNode *)createSubTreeWithRoot:(NSNumber *)rootValue left:(NSNumber *)left right:(NSNumber *)right {
 
@@ -699,8 +716,8 @@
     //   15   18
     // 16 17 19 20
 
-    root.right.left = [Tree createSubTreeWithRoot:@21 left:@22 right:@23];
-    root.right.right = [Tree createSubTreeWithRoot:@24 left:@25 right:@26];
+//    root.right.left = [Tree createSubTreeWithRoot:@21 left:@22 right:@23];
+//    root.right.right = [Tree createSubTreeWithRoot:@24 left:@25 right:@26];
 
     //            12
     //      13           14
@@ -715,6 +732,7 @@
 
     Tree *tree = [Tree getTree];
 
+    
     // [tree printPostOrder];
     // [tree printPreOrder];
     // [tree printInOrder];
@@ -727,6 +745,7 @@
     //
     //    NSLog(@"Height %ld", (long)[tree heightOfTree:tree.root]);
     //    NSLog(@"Size %ld", (long)[tree sizeOfTree:tree.root]);
+            NSLog(@"Diameter %ld", (long)[tree treeDiameter:tree.root]);
     //    [tree densityOfTree];
     //
 

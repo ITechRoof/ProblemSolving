@@ -42,5 +42,6 @@
 	P993 - Cousins (Easy)
 	P1028 -  Recover a Tree From Preorder Traversal (Hard)
 	P1104 - Path In Zigzag Labelled Binary Tree (Medium)
+	P1245 - Tree Diameter (Medium)
 	P1261 - Find Elements in a Contaminated Binary Tree (Medium)
 	P1339 - Maximum Product of Splitted Binary Tree (Medium)
