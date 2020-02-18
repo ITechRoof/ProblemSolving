@@ -6,6 +6,8 @@
 	N-ary Tree
 
 # LeetCode
+## Array
+      P896 - Monotonic Array (Easy)
 ## Tree
 	P98 - Validate Binary Search Tree (Medium)
 	P100 - Same tree (Easy)
