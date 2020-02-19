@@ -24,17 +24,20 @@
 #import "SumOfTwoNo.h"
 #import "SumOfTwoNoInSortedArray.h"
 
+#import "P81.h"
 #import "P98.h"
 #import "P100.h"
 #import "P101.h"
 #import "P104.h"
 #import "P110.h"
 #import "P114.h"
+#import "P189.h"
 #import "P199.h"
 #import "P222.h"
 #import "P226.h"
 #import "P310.h"
 #import "P366.h"
+#import "P384.h"
 #import "P538.h"
 #import "P545.h"
 #import "P549.h"
@@ -56,6 +59,7 @@
 #import "P958.h"
 #import "P965.h"
 #import "P968.h"
+#import "P977.h"
 #import "P979.h"
 #import "P993.h"
 #import "P1028.h"
@@ -85,17 +89,20 @@ int main(int argc, char * argv[]) {
         //        [SumOfTwoNo solution];
         //        [SumOfTwoNoInSortedArray solution];
         //
+        [P81 solution];
         //        [P98 solution];
         //        [P100 solution];
         //        [P101 solution];
         //        [P104 solution];
         //        [P110 solution];
         // [P114 solution];
+        [P189 solution];
         // [P199 solution];
         //        [P222 solution];
         //        [P226 solution];
 //                [P310 solution];
         // [P366 solution];
+        [P384 solution];
         //        [P538 solution];
 //        [P545 solution];
 //        [P549 solution];
@@ -111,12 +118,13 @@ int main(int argc, char * argv[]) {
         // [P665 solution];
         //        [P654 solution];
         // [P814 solution];
-        [P896 solution];
+//        [P896 solution];
         //        [P897 solution];
         //        [P919 solution];
         //        [P958 solution];
         //        [P965 solution];
 //        [P968 solution];
+        [P977 solution];
         //        [P979 solution];
         //        [P993 solution];
         //        [P1028 solution];
