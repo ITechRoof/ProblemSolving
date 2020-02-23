@@ -10,10 +10,11 @@
       P81 - Search in Rotated Sorted Array II (Medium)  
       P189 - Rotate Array (Easy)
       P384 - Shuffle an Array (Easy)
+			P441 - Arranging Coins (Easy)
       P896 - Monotonic Array (Easy)
       P977 - Squares of a Sorted Array (Easy)
 
-      
+
 ## Tree
 	P98 - Validate Binary Search Tree (Medium)
 	P100 - Same tree (Easy)
