@@ -12,6 +12,7 @@
       P384 - Shuffle an Array (Easy)
 			P441 - Arranging Coins (Easy)
 			P448 - Find All Numbers Disappeared in an Array (Easy)
+			P852 - Peak Index in a Mountain Array (Easy)
       P896 - Monotonic Array (Easy)
       P977 - Squares of a Sorted Array (Easy)
 
