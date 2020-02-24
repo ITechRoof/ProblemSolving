@@ -14,7 +14,11 @@
 			P448 - Find All Numbers Disappeared in an Array (Easy)
 			P852 - Peak Index in a Mountain Array (Easy)
       P896 - Monotonic Array (Easy)
+			P905 - Sort Array By Parity (Easy)
+			P912 - Sort an Array (Easy)
+			P941 - Valid Mountain Array (Easy)
       P977 - Squares of a Sorted Array (Easy)
+			P1122 - Relative Sort Array (Easy)
 
 
 ## Tree
