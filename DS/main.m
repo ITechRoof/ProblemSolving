@@ -54,6 +54,7 @@
 #import "P662.h"
 #import "P663.h"
 #import "P665.h"
+#import "P665Arr.h"
 #import "P697.h"
 #import "P814.h"
 #import "P852.h"
@@ -80,7 +81,7 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         NSLog(@"DS");
-
+        
         //        [LinkedList listImplementation];
         //        [DoubleLinkedList doubleListImplementation];
         //
@@ -90,63 +91,64 @@ int main(int argc, char * argv[]) {
         //        [QueueUsingArray solution];
         //        [Queue solution];
         //
-//                [Tree treeImplementation];
+        //                [Tree treeImplementation];
         //        [BST treeImplementation];
         //
         //        [AddTwoList solution];
         //        [SumOfTwoNo solution];
         //        [SumOfTwoNoInSortedArray solution];
         //
-//        [P81 solution];
+        //        [P81 solution];
         //        [P98 solution];
         //        [P100 solution];
         //        [P101 solution];
         //        [P104 solution];
         //        [P110 solution];
         // [P114 solution];
-//        [P189 solution];
+        //        [P189 solution];
         // [P199 solution];
         //        [P222 solution];
         //        [P226 solution];
-//                [P310 solution];
+        //                [P310 solution];
         // [P366 solution];
-//        [P384 solution];
-//        [P441 solution];
-//        [P448 solution];
-
+        //        [P384 solution];
+        //        [P441 solution];
+        //        [P448 solution];
+        
         //        [P538 solution];
-//        [P545 solution];
-//        [P549 solution];
-//        [P558 solution];
+        //        [P545 solution];
+        //        [P549 solution];
+        //        [P558 solution];
         //        [P563 solution];
         // [P572 solution];
         //        [P589 solution];
         //        [P590 solution];
-//        [P608 solution];
+        //        [P608 solution];
         //        [P617 solution];
         //        [P662 solution];
-//         [P663 solution];
+        //         [P663 solution];
         // [P665 solution];
+        [P665Arr solution];
         //        [P654 solution];
-          [P697 solution];
+        //          [P697 solution];
         // [P814 solution];
         // [P852 solution];
-//        [P896 solution];
+        //        [P896 solution];
         //        [P897 solution];
-          [P905 solution];
-            [P912 solution];
+        //          [P905 solution];
+        //            [P912 solution];
         //        [P919 solution];
-           [P941 solution];
+        //           [P941 solution];
         //        [P958 solution];
         //        [P965 solution];
-//        [P968 solution];
-//        [P977 solution];
+        //        [P968 solution];
+        //        [P977 solution];
         //        [P979 solution];
         //        [P993 solution];
         //        [P1028 solution];
         //        [P1104 solution];
-          [P1122 solution];
-//        [P1245 solution];
+        //          [P1122 solution];
+        //        [P1245 solution];
         //[P1261 solution];
         //        [P1339 solution];
     }
