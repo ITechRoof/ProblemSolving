@@ -22,6 +22,7 @@
         P905 - Sort Array By Parity (Easy)
         P912 - Sort an Array (Easy)
         P941 - Valid Mountain Array (Easy)
+				P961 - N-Repeated Element in Size 2N Array (Easy)
         P977 - Squares of a Sorted Array (Easy)
         P1122 - Relative Sort Array (Easy)
 
