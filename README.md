@@ -25,6 +25,7 @@
 				P961 - N-Repeated Element in Size 2N Array (Easy)
         P977 - Squares of a Sorted Array (Easy)
         P1122 - Relative Sort Array (Easy)
+				P1213 - Intersection of Three Sorted Arrays (Easy)
 
 
 ## Tree
