@@ -11,6 +11,7 @@
 				P167 - Two Sum II - Input array is sorted (Easy)
         P189 - Rotate Array (Easy)
 				P349 - Intersection of Two Arrays (Easy)
+				P360 - Sort Transformed Array (Medium)
         P384 - Shuffle an Array (Easy)
         P441 - Arranging Coins (Easy)
 				P442 - Find All Duplicates in an Array (Medium)
