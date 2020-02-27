@@ -9,8 +9,10 @@
 ## Array
         P81 - Search in Rotated Sorted Array II (Medium)  
         P189 - Rotate Array (Easy)
+				P349 - Intersection of Two Arrays (Easy)
         P384 - Shuffle an Array (Easy)
         P441 - Arranging Coins (Easy)
+				P442 - Find All Duplicates in an Array (Medium)
         P448 - Find All Numbers Disappeared in an Array (Easy)
         P665Arr - Non-decreasing Array (Easy)
         P697 - Degree of an Array (Easy)

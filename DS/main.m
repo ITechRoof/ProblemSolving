@@ -36,6 +36,7 @@
 #import "P222.h"
 #import "P226.h"
 #import "P310.h"
+#import "P349.h"
 #import "P366.h"
 #import "P384.h"
 #import "P441.h"
@@ -83,7 +84,7 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         // Setup code that might create autoreleased objects goes here.
         NSLog(@"DS");
-
+        
         //        [LinkedList listImplementation];
         //        [DoubleLinkedList doubleListImplementation];
         //
@@ -112,12 +113,13 @@ int main(int argc, char * argv[]) {
         //        [P222 solution];
         //        [P226 solution];
         //                [P310 solution];
+        [P349 solution];
         // [P366 solution];
         //        [P384 solution];
         //        [P441 solution];
-                [P442 solution];
+        //                [P442 solution];
         //        [P448 solution];
-
+        
         //        [P538 solution];
         //        [P545 solution];
         //        [P549 solution];
