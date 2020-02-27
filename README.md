@@ -26,6 +26,7 @@
         P977 - Squares of a Sorted Array (Easy)
         P1122 - Relative Sort Array (Easy)
 				P1213 - Intersection of Three Sorted Arrays (Easy)
+				P1243 - Array Transformation (Easy)
 
 
 ## Tree
