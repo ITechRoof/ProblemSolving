@@ -7,7 +7,8 @@
 
 # LeetCode
 ## Array
-        P81 - Search in Rotated Sorted Array II (Medium)  
+        P81 - Search in Rotated Sorted Array II (Medium)
+				P153 - Find Minimum in Rotated Sorted Array (Medium) 
 				P167 - Two Sum II - Input array is sorted (Easy)
         P189 - Rotate Array (Easy)
 				P349 - Intersection of Two Arrays (Easy)
