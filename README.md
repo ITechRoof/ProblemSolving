@@ -18,6 +18,7 @@
         P441 - Arranging Coins (Easy)
 				P442 - Find All Duplicates in an Array (Medium)
         P448 - Find All Numbers Disappeared in an Array (Easy)
+				P561 - Array Partition I (Easy)
         P665Arr - Non-decreasing Array (Easy)
         P697 - Degree of an Array (Easy)
         P852 - Peak Index in a Mountain Array (Easy)
