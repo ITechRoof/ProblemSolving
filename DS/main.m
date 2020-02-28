@@ -45,6 +45,7 @@
 #import "P441.h"
 #import "P442.h"
 #import "P448.h"
+#import "P525.h"
 #import "P538.h"
 #import "P545.h"
 #import "P549.h"
@@ -132,14 +133,14 @@ int main(int argc, char * argv[]) {
         //        [P441 solution];
         //                [P442 solution];
         //        [P448 solution];
-
+[P525 solution];
         //        [P538 solution];
         //        [P545 solution];
         //        [P549 solution];
         //        [P558 solution];
         // [P561 solution];
         //        [P563 solution];
-        [P565 solution];
+        // [P565 solution];
         // [P572 solution];
         //        [P589 solution];
         //        [P590 solution];
