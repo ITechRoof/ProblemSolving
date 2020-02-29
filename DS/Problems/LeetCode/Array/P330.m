@@ -78,9 +78,5 @@ int i = 0;
 {
     P330 *case1 = [[P330 alloc] init];
     NSLog(@"%ld", (long)[case1 maxPatch:@[@1, @2, @5, @6, @20] target:50]);
-    
-     P330 *case2 = [[P330 alloc] init];
-     NSLog(@"%ld", (long)[case2 maxLength:@[@0,@0,@1,@0,@0,@0,@1,@1]]);
-
 }
 @end

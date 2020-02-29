@@ -19,6 +19,7 @@
         P441 - Arranging Coins (Easy)
 				P442 - Find All Duplicates in an Array (Medium)
         P448 - Find All Numbers Disappeared in an Array (Easy)
+				P457 - Circular Array Loop (Medium)
 				P525 - Contiguous Array (Medium)
 				P561 - Array Partition I (Easy)
 				P565 - Array Nesting (Medium)

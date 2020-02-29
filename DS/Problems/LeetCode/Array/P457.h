@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface P457 : NSObject
 
++ (void)solution;
+
 @end
 
 NS_ASSUME_NONNULL_END
