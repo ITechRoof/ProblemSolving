@@ -46,13 +46,26 @@
         self.head = node;
         return;
     }
+    else if(pos == 1)
+    {
+        [self insertAtHead:data];
+        return;
+    }
     
     int i = 1;
     DoubleListNode *temp = self.head;
-    while(temp != NULL && i < pos) {
+    while(temp != NULL && i < pos - 1) {
         
         i++;
         temp = temp.next;
+    }
+    
+    if(temp != NULL)
+    {
+        node.next = temp.next;
+        temp.next.prev = node;
+        temp.next = node;
+        node.prev = temp;
     }
 }
 
@@ -194,14 +207,14 @@
 //    [list deleteAtHead];
 //    [list deleteAtTail];
 
-    //    //    [list insertAtPos:[[NSNumber alloc] initWithInt:8] position:4];
-    //        [list printListUsingRecursion:list.head];
+            [list insertAtPos:@"D" position:1];
+            [list printListUsingRecursion:list.head];
     //    //    [list reversePrintRecursive:list.head];
     
     //        [list reverseRecursive:list.head];
-    [list reverseIterative];
 //    [list reverseIterative];
-    [list printListUsingRecursion:list.head];
+//    [list reverseIterative];
+//    [list printListUsingRecursion:list.head];
     
 }
 

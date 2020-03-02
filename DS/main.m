@@ -100,7 +100,7 @@ int main(int argc, char * argv[]) {
         NSLog(@"DS");
 
         //        [LinkedList listImplementation];
-        //        [DoubleLinkedList doubleListImplementation];
+                [DoubleLinkedList doubleListImplementation];
         //
         //        [StackUsingArray stackImplementation];
         //        [Stack stackImplementation];
@@ -120,7 +120,7 @@ int main(int argc, char * argv[]) {
         //        [P100 solution];
         //        [P101 solution];
         //        [P104 solution];
-        [P109 solution];
+//        [P109 solution];
         //        [P110 solution];
         // [P114 solution];
         // [P153 solution];
