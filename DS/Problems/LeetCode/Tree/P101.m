@@ -26,9 +26,9 @@
         {
             [queue enqueue:first.left];
             [queue enqueue:second.right];
-        }else if(first.left == NULL && second.right == NULL){
-            break;
-        }else if(first.left == NULL || second.right == NULL){
+        }
+        else if(first.left != NULL || second.right != NULL)
+        {
             return NO;
         }
        
@@ -36,12 +36,11 @@
         {
             [queue enqueue:first.right];
             [queue enqueue:second.left];
-        }else if(first.right == NULL && second.left == NULL){
-            break;
-        }else if(first.right == NULL || second.left == NULL){
+        }
+        else if(first.right != NULL || second.left != NULL)
+        {
             return NO;
         }
-       
     }
 
     return YES;

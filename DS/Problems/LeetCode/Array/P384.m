@@ -13,7 +13,7 @@
 - (NSArray *)shuffleArray:(NSArray *)input
 {
     NSMutableArray *inputArray = [NSMutableArray arrayWithArray:input];
-    for (int i = inputArray.count - 1; i >= 0; i--) {
+    for (NSInteger i = inputArray.count - 1; i >= 0; i--) {
         NSInteger random = rand() % inputArray.count;
         NSNumber *temp = inputArray[random];
         inputArray[random] = inputArray[i];

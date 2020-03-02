@@ -12,32 +12,32 @@
 
 - (NSArray *)relativeSort:(NSArray *)input refArray:(NSArray <NSNumber *>*)refArray
 {
-  NSMutableArray <NSNumber *>*result = [NSMutableArray arrayWithArray:input];
-  if(refArray.count > 0)
-  {
-    int lastndex = 0;
-    for(int i = 0; i < refArray.count; i++)
-      {
-        NSNumber *key = refArray[i];
-          for(int j = lastndex; j < result.count; j++)
-          {
-              if(result[j].integerValue != key.integerValue)
-              {
-                for(int k = j+1; k < result.count; k++)
+    NSMutableArray <NSNumber *>*result = [NSMutableArray arrayWithArray:input];
+    if(refArray.count > 0)
+    {
+        int lastndex = 0;
+        for(int i = 0; i < refArray.count; i++)
+        {
+            NSNumber *key = refArray[i];
+            for(int j = lastndex; j < result.count; j++)
+            {
+                if(result[j].integerValue != key.integerValue)
                 {
-                  if(result[k].integerValue == key.integerValue)
-                  {
-                    NSNumber *temp = result[k];
-                    result[k] = result[j];
-                    result[j] = temp;
-                    lastndex = j + 1;
-                    break;
-                  }
+                    for(int k = j+1; k < result.count; k++)
+                    {
+                        if(result[k].integerValue == key.integerValue)
+                        {
+                            NSNumber *temp = result[k];
+                            result[k] = result[j];
+                            result[j] = temp;
+                            lastndex = j + 1;
+                            break;
+                        }
+                    }
                 }
-              }
-          }
-      }
-  }
+            }
+        }
+    }
     return result;
 }
 

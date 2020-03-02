@@ -43,9 +43,9 @@
     P98 - Validate Binary Search Tree (Medium)
     P100 - Same tree (Easy)
     P101 - Symmetric tree (Easy)
+		P104 - Maximum Depth of Binary Tree (Easy)
     P109 - Convert Sorted List to Binary Search Tree (Medium)
     P110 - Is balanced tree (Easy)
-    P104 - Maximum Depth of Binary Tree (Easy)
     P114 - Flatten to linked list (Medium)
     P199 - Print Right View (Medium)
     P222 - Count Complete Tree Nodes (Medium)
@@ -80,4 +80,3 @@
     P1245 - Tree Diameter (Medium)
     P1261 - Find Elements in a Contaminated Binary Tree (Medium)
     P1339 - Maximum Product of Splitted Binary Tree (Medium)
-

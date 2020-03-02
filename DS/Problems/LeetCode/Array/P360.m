@@ -25,11 +25,11 @@
 {
     NSMutableArray<NSNumber *> *result = [NSMutableArray arrayWithArray:sortedArr];
     
-    int low = 0;
-    int high = result.count - 1;
+    NSInteger low = 0;
+    NSInteger high = result.count - 1;
     while(low <= high)
     {
-        int mid = (low + high) / 2;
+        NSInteger mid = (low + high) / 2;
         if(result[mid].integerValue > num)
         {
             high = mid - 1;
@@ -56,7 +56,7 @@
     {
         NSInteger val = num.integerValue;
         NSInteger resultVal = a * val * val + b * val + c;
-        result = [self insert:resultVal arr:result];
+        result =  [NSMutableArray arrayWithArray:[self insert:resultVal arr:result]];
     }
     return result;
 }

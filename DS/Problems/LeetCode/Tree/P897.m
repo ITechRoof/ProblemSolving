@@ -71,7 +71,6 @@
     return root;
 }
 
-//Solution 2
 - (void)queueAllNodesInPreOrder:(TreeNode *)node queue:(QueueUsingArray **)queue
 {
     if(node == NULL)
@@ -83,6 +82,7 @@
     [self queueAllNodesInPreOrder:node.right queue:queue];
 
 }
+//Solution 2
 - (TreeNode *)increasingOrderTree:(TreeNode *)node
 {
     if(node == NULL)

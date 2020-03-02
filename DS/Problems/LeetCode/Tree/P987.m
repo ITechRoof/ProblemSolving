@@ -27,18 +27,18 @@
     return self;
 }
 
-- (void)setVerticalDict:(TreeNode *)node position:(int)pos
+- (void)setVerticalDict:(TreeNode *)node position:(NSInteger)pos
 {
     if(node == NULL)
     {
         return;
     }
     
-    NSNumber *key = [NSNumber numberWithInt:pos];
+    NSNumber *key = [NSNumber numberWithInteger:pos];
     NSMutableArray *array = [NSMutableArray arrayWithArray:[self.verticalView objectForKey:key] ?: @[]];
-    
     [array addObject:node];
     [self.verticalView setObject:array forKey:key];
+    
     [self setVerticalDict:node.left position:key.integerValue - 1];
     [self setVerticalDict:node.right position:key.integerValue + 1];
 }

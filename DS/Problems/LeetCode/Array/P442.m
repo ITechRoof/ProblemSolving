@@ -12,9 +12,9 @@
 
 - (NSArray *)findDuplicates:(NSArray <NSNumber *>*)input
 {
-  NSMutableArray <NSNumber *> *result = [[NSMutableArray alloc] init];
+    NSMutableArray <NSNumber *> *result = [[NSMutableArray alloc] init];
     NSMutableArray <NSNumber *> *temp = [[NSMutableArray alloc] initWithArray:input];
-
+    
     for (NSNumber *num in input) {
         NSNumber *val = temp[num.integerValue - 1];
         if(val.integerValue > 0)
@@ -26,7 +26,7 @@
             [result addObject:num];
         }
     }
-
+    
     return result;
 }
 
