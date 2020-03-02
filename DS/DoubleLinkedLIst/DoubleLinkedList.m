@@ -71,6 +71,7 @@
 
 - (void)deleteAtHead {
     self.head = self.head.next;
+    self.head.prev = NULL;
 }
 
 - (void)deleteAtTail {
@@ -97,6 +98,7 @@
     
     if([self.head.data isEqual:value]) {
         self.head = self.head.next;
+        self.head.prev = NULL;
         return;
     }
     

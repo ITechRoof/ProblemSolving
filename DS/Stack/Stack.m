@@ -23,7 +23,6 @@
     
     if(![self isEmpty]) {
         self.top.next = node;
-        self.top = node;
     }else {
         self.head = node;
     }
