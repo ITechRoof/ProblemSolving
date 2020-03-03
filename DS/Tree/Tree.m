@@ -514,6 +514,31 @@
     }
 }
 
+- (void)diagnolTraversalUtilForNode:(TreeNode *)node dict:(NSMutableDictionary **)diagDict line:(NSInteger)line {
+    if(node == NULL)
+    {
+        return;
+    }
+    
+    NSNumber *key = [NSNumber numberWithInteger:line];
+    NSMutableArray *nodes = [NSMutableArray arrayWithArray:[*diagDict objectForKey:key]];
+    [nodes addObject:node.data];
+    [*diagDict setObject:nodes forKey:key];
+    
+    [self diagnolTraversalUtilForNode:node.left dict:diagDict line:line + 1];
+    [self diagnolTraversalUtilForNode:node.right dict:diagDict line:line];
+}
+
+- (void)diagnolTraversal {
+    
+    NSMutableDictionary *dict = [NSMutableDictionary dictionary];
+    [self diagnolTraversalUtilForNode:self.root dict:&dict line:0];
+    
+    for (NSNumber *num in dict.allKeys) {
+        NSLog(@"%@", [dict objectForKey:num]);
+    }
+}
+
 - (void)printLevelByLevel {
 
     if(self.root == NULL) {
@@ -716,8 +741,8 @@
     //   15   18
     // 16 17 19 20
 
-//    root.right.left = [Tree createSubTreeWithRoot:@21 left:@22 right:@23];
-//    root.right.right = [Tree createSubTreeWithRoot:@24 left:@25 right:@26];
+    root.right.left = [Tree createSubTreeWithRoot:@21 left:@22 right:@23];
+    root.right.right = [Tree createSubTreeWithRoot:@24 left:@25 right:@26];
 
     //            12
     //      13           14
@@ -732,7 +757,7 @@
 
     Tree *tree = [Tree getTree];
 
-    
+    [tree diagnolTraversal];
     // [tree printPostOrder];
     // [tree printPreOrder];
     // [tree printInOrder];
@@ -745,7 +770,7 @@
     //
     //    NSLog(@"Height %ld", (long)[tree heightOfTree:tree.root]);
     //    NSLog(@"Size %ld", (long)[tree sizeOfTree:tree.root]);
-            NSLog(@"Diameter %ld", (long)[tree treeDiameter:tree.root]);
+//            NSLog(@"Diameter %ld", (long)[tree treeDiameter:tree.root]);
     //    [tree densityOfTree];
     //
 
