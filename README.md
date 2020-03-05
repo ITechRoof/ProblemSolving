@@ -3,6 +3,7 @@
 	Stack
 	Queue
 	Tree
+    Heap - Min & Max
 	N-ary Tree
 
 # LeetCode

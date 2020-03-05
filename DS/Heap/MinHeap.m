@@ -83,32 +83,7 @@
     
     while(leftIndex != -1 || rightIndex != -1)
     {
-        NSInteger minIndex = NSIntegerMax;
-        if(leftIndex != -1 && rightIndex != -1)
-        {
-            if(self.arr[leftIndex].integerValue < self.arr[rightIndex].integerValue && self.arr[leftIndex].integerValue < self.arr[index].integerValue)
-            {
-                minIndex = leftIndex;
-            }
-            else if(self.arr[rightIndex].integerValue < self.arr[leftIndex].integerValue && self.arr[rightIndex].integerValue < self.arr[index].integerValue)
-            {
-                minIndex = rightIndex;
-            }
-        }
-        else if(leftIndex != -1)
-        {
-            if(self.arr[leftIndex].integerValue < self.arr[index].integerValue)
-            {
-                minIndex = leftIndex;
-            }
-        }
-        else
-        {
-            if(self.arr[rightIndex].integerValue < self.arr[index].integerValue)
-            {
-                minIndex = rightIndex;
-            }
-        }
+        NSInteger minIndex = [self findMinIndex:index];
         
         if(minIndex != NSIntegerMax)
         {
@@ -135,24 +110,90 @@
     NSLog(@"%@", self.arr);
 }
 
+- (NSInteger)findMinIndex:(NSInteger)index
+{
+    NSInteger leftIndex = [self leftChildOfIndex:index];
+    NSInteger rightIndex = [self rightChildOfIndex:index];
+    NSInteger minIndex = NSIntegerMax;
+    if(leftIndex != -1 || rightIndex != -1)
+    {
+        if(leftIndex != -1 && rightIndex != -1)
+        {
+            if(self.arr[leftIndex].integerValue < self.arr[rightIndex].integerValue && self.arr[leftIndex].integerValue < self.arr[index].integerValue)
+            {
+                minIndex = leftIndex;
+            }
+            else if(self.arr[rightIndex].integerValue < self.arr[leftIndex].integerValue && self.arr[rightIndex].integerValue < self.arr[index].integerValue)
+            {
+                minIndex = rightIndex;
+            }
+        }
+        else if(leftIndex != -1)
+        {
+            if(self.arr[leftIndex].integerValue < self.arr[index].integerValue)
+            {
+                minIndex = leftIndex;
+            }
+        }
+        else
+        {
+            if(self.arr[rightIndex].integerValue < self.arr[index].integerValue)
+            {
+                minIndex = rightIndex;
+            }
+        }
+    }
+    return minIndex;
+}
+
+- (void)minHeapify:(NSInteger)index
+{
+    NSInteger minIndex = [self findMinIndex:index];
+    
+    if(minIndex != NSIntegerMax)
+    {
+        NSNumber *temp = self.arr[index];
+        self.arr[index] = self.arr[minIndex];
+        self.arr[minIndex] = temp;
+        [self minHeapify:minIndex];
+    }
+    else
+    {
+        return;
+    }
+}
+- (void)heapify:(NSArray *)arr
+{
+    self.arr = [NSMutableArray arrayWithArray:arr];
+    
+    for(NSInteger index = (self.arr.count - 1) / 2; index >= 0; index--)
+    {
+        [self minHeapify:index];
+    }
+}
+
 + (void)heapImplementation
 {
-    MinHeap *heap = [[MinHeap alloc] init];
-    
-    [heap push:@44];
-    [heap push:@33];
-    [heap push:@77];
-    [heap push:@11];
-    [heap push:@55];
-    [heap push:@88];
-    [heap push:@66];
-    [heap push:@22];
+//    MinHeap *heap = [[MinHeap alloc] init];
+//    
+//    [heap push:@44];
+//    [heap push:@33];
+//    [heap push:@77];
+//    [heap push:@11];
+//    [heap push:@55];
+//    [heap push:@88];
+//    [heap push:@66];
+//    [heap push:@22];
+//    
+//    [heap printHeap];
+//    
+//    NSLog(@"%@", [heap extractMin]);
+//    NSLog(@"%@", [heap extractMin]);
     
     [heap printHeap];
     
-    NSLog(@"%@", [heap extractMin]);
-    NSLog(@"%@", [heap extractMin]);
-    
-    [heap printHeap];
+    MinHeap *heap1 = [[MinHeap alloc] init];
+    [heap1 heapify:@[@44, @33, @77, @11, @55, @88, @66, @22]];
+    [heap1 printHeap];
 }
 @end
