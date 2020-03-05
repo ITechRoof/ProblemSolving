@@ -18,6 +18,7 @@
 #import "Queue.h"
 
 #import "MinHeap.h"
+#import "MaxHeap.h"
 
 #import "Tree.h"
 #import "BST.h"
@@ -110,7 +111,8 @@ int main(int argc, char * argv[]) {
 //        [QueueUsingArray solution];
 //        [Queue solution];
         
-        [MinHeap heapImplementation];
+//        [MinHeap heapImplementation];
+        [MaxHeap heapImplementation];
 //
 //        [Tree treeImplementation];
 //        [BST treeImplementation];
