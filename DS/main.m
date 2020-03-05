@@ -111,8 +111,8 @@ int main(int argc, char * argv[]) {
 //        [QueueUsingArray solution];
 //        [Queue solution];
         
-        [MinHeap heapImplementation];
-//        [MaxHeap heapImplementation];
+//        [MinHeap heapImplementation];
+        [MaxHeap heapImplementation];
 //
 //        [Tree treeImplementation];
 //        [BST treeImplementation];

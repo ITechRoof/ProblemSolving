@@ -175,7 +175,7 @@
 + (void)heapImplementation
 {
 //    MinHeap *heap = [[MinHeap alloc] init];
-//    
+//
 //    [heap push:@44];
 //    [heap push:@33];
 //    [heap push:@77];
@@ -184,13 +184,13 @@
 //    [heap push:@88];
 //    [heap push:@66];
 //    [heap push:@22];
-//    
+//
 //    [heap printHeap];
-//    
+//
 //    NSLog(@"%@", [heap extractMin]);
 //    NSLog(@"%@", [heap extractMin]);
     
-    [heap printHeap];
+//    [heap printHeap];
     
     MinHeap *heap1 = [[MinHeap alloc] init];
     [heap1 heapify:@[@44, @33, @77, @11, @55, @88, @66, @22]];

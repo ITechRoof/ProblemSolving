@@ -83,7 +83,36 @@
     
     while(leftIndex != -1 || rightIndex != -1)
     {
-        NSInteger maxIndex = NSIntegerMax;
+        NSInteger maxIndex = [self findMaxIndex:index];
+        
+        if(maxIndex != NSIntegerMax)
+        {
+            NSNumber *temp = self.arr[index];
+            self.arr[index] = self.arr[maxIndex];
+            self.arr[maxIndex] = temp;
+            
+            index = maxIndex;
+            leftIndex = [self leftChildOfIndex:index];
+            rightIndex = [self rightChildOfIndex:index];
+        }
+        else
+        {
+            break;
+        }
+    }
+    [self.arr removeLastObject];
+    
+    return max;
+}
+
+- (NSInteger)findMaxIndex:(NSInteger)index
+{
+    NSInteger leftIndex = [self leftChildOfIndex:index];
+    NSInteger rightIndex = [self rightChildOfIndex:index];
+    NSInteger maxIndex = NSIntegerMax;
+    
+    if(leftIndex != -1 || rightIndex != -1)
+    {
         if(leftIndex != -1 && rightIndex != -1)
         {
             if(self.arr[leftIndex].integerValue > self.arr[rightIndex].integerValue && self.arr[leftIndex].integerValue > self.arr[index].integerValue)
@@ -109,27 +138,35 @@
                 maxIndex = rightIndex;
             }
         }
-        
-        if(maxIndex != NSIntegerMax)
-        {
-            NSNumber *temp = self.arr[index];
-            self.arr[index] = self.arr[maxIndex];
-            self.arr[maxIndex] = temp;
-            
-            index = maxIndex;
-            leftIndex = [self leftChildOfIndex:index];
-            rightIndex = [self rightChildOfIndex:index];
-        }
-        else
-        {
-            break;
-        }
     }
-    [self.arr removeLastObject];
-    
-    return max;
+    return maxIndex;
 }
 
+- (void)maxHeapify:(NSInteger)index
+{
+    NSInteger maxIndex = [self findMaxIndex:index];
+    
+    if(maxIndex != NSIntegerMax)
+    {
+        NSNumber *temp = self.arr[index];
+        self.arr[index] = self.arr[maxIndex];
+        self.arr[maxIndex] = temp;
+        [self maxHeapify:maxIndex];
+    }
+    else
+    {
+        return;
+    }
+}
+- (void)heapify:(NSArray *)arr
+{
+    self.arr = [NSMutableArray arrayWithArray:arr];
+    
+    for(NSInteger index = (self.arr.count - 1) / 2; index >= 0; index--)
+    {
+        [self maxHeapify:index];
+    }
+}
 - (void)printHeap
 {
     NSLog(@"%@", self.arr);
@@ -150,12 +187,16 @@
     
     [heap printHeap];
     
-    NSLog(@"%@", [heap extractMax]);
+//    NSLog(@"%@", [heap extractMax]);
+//
+//    [heap printHeap];
+//
+//    NSLog(@"%@", [heap extractMax]);
+//
+//    [heap printHeap];
     
-    [heap printHeap];
-
-    NSLog(@"%@", [heap extractMax]);
-    
-    [heap printHeap];
+    MaxHeap *heap1 = [[MaxHeap alloc] init];
+    [heap1 heapify:@[@44, @33, @77, @11, @55, @88, @66, @22]];
+    [heap1 printHeap];
 }
 @end
