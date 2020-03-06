@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MaxHeap : NSObject
 
+- (instancetype)initWithArray:(NSArray *)arr;
+- (NSNumber *)extractMax;
+
 + (void)heapImplementation;
 
 @end

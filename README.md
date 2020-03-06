@@ -13,6 +13,7 @@
     P153 - Find Minimum in Rotated Sorted Array with duplicates (Hard)
     P167 - Two Sum II - Input array is sorted (Easy)
     P189 - Rotate Array (Easy)
+    P215 - Kth Largest Element in an Array (Medium)
     P330 - Patching Array (Hard)
     P349 - Intersection of Two Arrays (Easy)
     P360 - Sort Transformed Array (Medium)

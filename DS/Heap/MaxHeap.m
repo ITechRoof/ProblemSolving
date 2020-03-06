@@ -26,6 +26,16 @@
     return self;
 }
 
+- (instancetype)initWithArray:(NSArray *)arr
+{
+    self = [super init];
+    if(self)
+    {
+        [self heapify:arr];
+    }
+    return self;
+}
+
 - (NSInteger)parentOfIndex:(NSInteger)index
 {
     if(index == 0)
@@ -115,25 +125,25 @@
     {
         if(leftIndex != -1 && rightIndex != -1)
         {
-            if(self.arr[leftIndex].integerValue > self.arr[rightIndex].integerValue && self.arr[leftIndex].integerValue > self.arr[index].integerValue)
+            if(self.arr[leftIndex].integerValue >= self.arr[rightIndex].integerValue && self.arr[leftIndex].integerValue >= self.arr[index].integerValue)
             {
                 maxIndex = leftIndex;
             }
-            else if(self.arr[rightIndex].integerValue > self.arr[leftIndex].integerValue && self.arr[rightIndex].integerValue > self.arr[index].integerValue)
+            else if(self.arr[rightIndex].integerValue >= self.arr[leftIndex].integerValue && self.arr[rightIndex].integerValue >= self.arr[index].integerValue)
             {
                 maxIndex = rightIndex;
             }
         }
         else if(leftIndex != -1)
         {
-            if(self.arr[leftIndex].integerValue > self.arr[index].integerValue)
+            if(self.arr[leftIndex].integerValue >= self.arr[index].integerValue)
             {
                 maxIndex = leftIndex;
             }
         }
         else
         {
-            if(self.arr[rightIndex].integerValue > self.arr[index].integerValue)
+            if(self.arr[rightIndex].integerValue >= self.arr[index].integerValue)
             {
                 maxIndex = rightIndex;
             }
