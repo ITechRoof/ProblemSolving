@@ -63,6 +63,7 @@
     P590 - N-ary Tree Postorder Traversal (Easy)
     P608 - Tree Node (Medium)
     P617 - Merge Tree (Easy)
+    P623 - Add one row to tree (Medium)
     P654 - Maximum Binary Tree (Medium)
     P662 - Maximum width (Medium)
     P663 - Equal Tree Partition (Medium)
