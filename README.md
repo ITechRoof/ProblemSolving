@@ -35,6 +35,7 @@
     P941 - Valid Mountain Array (Easy)
     P961 - N-Repeated Element in Size 2N Array (Easy)
     P977 - Squares of a Sorted Array (Easy)
+		P996 - Number of Squareful Arrays (Hard)
     P1095 - Find in Mountain Array (Hard)
     P1122 - Relative Sort Array (Easy)
     P1213 - Intersection of Three Sorted Arrays (Easy)
