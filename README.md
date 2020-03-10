@@ -25,6 +25,7 @@
     P525 - Contiguous Array (Medium)
     P561 - Array Partition I (Easy)
     P565 - Array Nesting (Medium)
+    P629 - K Inverse Pairs Array (Hard)
     P665Arr - Non-decreasing Array (Easy)
     P697 - Degree of an Array (Easy)
     P852 - Peak Index in a Mountain Array (Easy)
