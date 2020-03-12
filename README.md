@@ -23,6 +23,7 @@
     P448 - Find All Numbers Disappeared in an Array (Easy)
     P457 - Circular Array Loop (Medium)
     P525 - Contiguous Array (Medium)
+    P526 - Beautiful Arrangement (Medium)
     P561 - Array Partition I (Easy)
     P565 - Array Nesting (Medium)
     P629 - K Inverse Pairs Array (Hard)
