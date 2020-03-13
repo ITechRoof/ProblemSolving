@@ -42,6 +42,7 @@
 		P996 - Number of Squareful Arrays (Hard)
     P1095 - Find in Mountain Array (Hard)
     P1122 - Relative Sort Array (Easy)
+    P1146 - Snapshot Array (Medium)
     P1213 - Intersection of Three Sorted Arrays (Easy)
     P1243 - Array Transformation (Easy)
 

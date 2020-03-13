@@ -82,6 +82,5 @@
     P805 *case1 = [[P805 alloc] init];
     [case1 canSplitWithSameAverage:@[@1,@2,@3,@4,@5,@6,@7,@8]] ? NSLog(@"Can split") :  NSLog(@"Cannot split");
     [case1 canSplitWithSameAverage:@[@2,@4,@5,@7,@10, @14]] ? NSLog(@"Can split") :  NSLog(@"Cannot split");
-
 }
 @end
