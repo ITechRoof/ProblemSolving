@@ -31,6 +31,7 @@
     P697 - Degree of an Array (Easy)
     P805 - Split Array With Same Average (Hard)
     P852 - Peak Index in a Mountain Array (Easy)
+    P869 - Find the Derangement of An Array (Medium)
     P896 - Monotonic Array (Easy)
     P905 - Sort Array By Parity (Easy)
     P912 - Sort an Array (Easy)
