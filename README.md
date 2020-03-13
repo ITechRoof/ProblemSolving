@@ -45,7 +45,7 @@
     P1146 - Snapshot Array (Medium)
     P1213 - Intersection of Three Sorted Arrays (Easy)
     P1243 - Array Transformation (Easy)
-
+    P1250 - Check If It Is a Good Array (Hard)
 
 ## Tree
     P98 - Validate Binary Search Tree (Medium)
