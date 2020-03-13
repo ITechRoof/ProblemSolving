@@ -29,6 +29,7 @@
     P629 - K Inverse Pairs Array (Hard)
     P665Arr - Non-decreasing Array (Easy)
     P697 - Degree of an Array (Easy)
+    P805 - Split Array With Same Average (Hard)
     P852 - Peak Index in a Mountain Array (Easy)
     P896 - Monotonic Array (Easy)
     P905 - Sort Array By Parity (Easy)
