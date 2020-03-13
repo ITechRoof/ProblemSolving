@@ -66,8 +66,8 @@
     }
     for (NSInteger i = 1; i <= arr.count / 2; i++) {
         if ((i * sum) % arr.count == 0) {
-            float checkVal = (i * sum) / arr.count;
-            if([sumSet[i] containsObject:[NSNumber numberWithFloat:checkVal]])
+            NSInteger checkVal = (i * sum) / arr.count;
+            if([sumSet[i] containsObject:[NSNumber numberWithInteger:checkVal]])
             {
                 return true;
             }
