@@ -7,6 +7,9 @@
 	N-ary Tree
 
 # LeetCode
+## String
+    P1221 - Split a String in Balanced Strings (Easy)
+    
 ## Array
     P81 - Search in Rotated Sorted Array II (Medium)
     P153 - Find Minimum in Rotated Sorted Array (Medium)
