@@ -9,6 +9,7 @@
 # LeetCode
 ## String
     P344 - Reverse String (Easy)
+    P387 - First Unique Character in a String (Easy)
     P942 - DI String Match (Easy)
     P1221 - Split a String in Balanced Strings (Easy)
     
