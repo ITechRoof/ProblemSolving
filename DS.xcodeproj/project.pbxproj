@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28054A542420936800CA64C8 /* P1374.m in Sources */ = {isa = PBXBuildFile; fileRef = 28054A532420936800CA64C8 /* P1374.m */; };
 		280A944323CDD0E70069225C /* BST.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A944223CDD0E70069225C /* BST.m */; };
 		282760BE23F5421B00502FFD /* P558.m in Sources */ = {isa = PBXBuildFile; fileRef = 282760BD23F5421B00502FFD /* P558.m */; };
 		2830EC3423FC158D00081A12 /* P896.m in Sources */ = {isa = PBXBuildFile; fileRef = 2830EC3323FC158D00081A12 /* P896.m */; };
@@ -122,6 +123,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28054A522420936800CA64C8 /* P1374.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P1374.h; path = LeetCode/String/P1374.h; sourceTree = "<group>"; };
+		28054A532420936800CA64C8 /* P1374.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P1374.m; path = LeetCode/String/P1374.m; sourceTree = "<group>"; };
 		280A944123CDD0E70069225C /* BST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BST.h; sourceTree = "<group>"; };
 		280A944223CDD0E70069225C /* BST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BST.m; sourceTree = "<group>"; };
 		282760BC23F5421B00502FFD /* P558.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P558.h; path = LeetCode/Tree/P558.h; sourceTree = "<group>"; };
@@ -455,6 +458,8 @@
 				28663D1F241E566D002C0EE4 /* P387.m */,
 				28663D21241F439C002C0EE4 /* P443.h */,
 				28663D22241F439C002C0EE4 /* P443.m */,
+				28054A522420936800CA64C8 /* P1374.h */,
+				28054A532420936800CA64C8 /* P1374.m */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -847,6 +852,7 @@
 				28D5C5AB2403AD4E00BDC2F8 /* P941.m in Sources */,
 				73ECBD7223B4AFBB00753D66 /* main.m in Sources */,
 				2879BBD823F809F5007CDC51 /* P1245.m in Sources */,
+				28054A542420936800CA64C8 /* P1374.m in Sources */,
 				28B11AE423EBCCBB006E0A5E /* P226.m in Sources */,
 				73F92FC823BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m in Sources */,
 				28EA258323ED20C9000D6774 /* P617.m in Sources */,
