@@ -27,7 +27,7 @@
 
     NSInteger carry = 0;
     NSString *res = @"";
-    for (; str1Index >= 0 || str1Index >= 0; str1Index--, str2Index--) {
+    for (; str1Index >= 0 || str2Index >= 0; str1Index--, str2Index--) {
         char char1 = '0', char2 = '0';
         if(str1Index >= 0)
         {

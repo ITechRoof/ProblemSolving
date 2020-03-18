@@ -8,6 +8,7 @@
 
 # LeetCode
 ## String
+    P43 - Multiply Strings (Medium)
     P344 - Reverse String (Easy)
     P387 - First Unique Character in a String (Easy)
     P415 - Add Strings (Easy)
