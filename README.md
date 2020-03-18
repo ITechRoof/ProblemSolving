@@ -10,6 +10,7 @@
 ## String
     P344 - Reverse String (Easy)
     P387 - First Unique Character in a String (Easy)
+    P415 - Add Strings (Easy)
     P443 - String Compression (Easy)
     P557 - Reverse Words in a String III (Easy)
     P942 - DI String Match (Easy)
