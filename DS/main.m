@@ -67,6 +67,7 @@
 #import "P561.h"
 #import "P563.h"
 #import "P565.h"
+#import "P567.h"
 #import "P572.h"
 #import "P589.h"
 #import "P590.h"
@@ -141,7 +142,7 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
 //
-        [P43 solution];
+//        [P43 solution];
 //        [P81 solution];
 //        [P98 solution];
 //        [P100 solution];
@@ -181,6 +182,7 @@ int main(int argc, char * argv[]) {
 //        [P561 solution];
 //        [P563 solution];
 //        [P565 solution];
+        [P567 solution];
 //        [P572 solution];
 //        [P589 solution];
 //        [P590 solution];

@@ -14,6 +14,7 @@
     P415 - Add Strings (Easy)
     P443 - String Compression (Easy)
     P557 - Reverse Words in a String III (Easy)
+    P567 - Permutation in String (Medium)
     P942 - DI String Match (Easy)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1221 - Split a String in Balanced Strings (Easy)
