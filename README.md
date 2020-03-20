@@ -19,6 +19,7 @@
     P567 - Permutation in String (Medium)
     P942 - DI String Match (Easy)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
+    P1048 - Longest String Chain (Medium)
     P1221 - Split a String in Balanced Strings (Easy)
     P1374 - Generate a String With Characters That Have Odd Counts (Easy)
     

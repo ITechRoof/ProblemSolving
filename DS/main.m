@@ -107,6 +107,7 @@
 #import "P996.h"
 #import "P1028.h"
 #import "P1047.h"
+#import "P1048.h"
 #import "P1095.h"
 #import "P1104.h"
 #import "P1122.h"
@@ -144,7 +145,7 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
 //
-        [P8 solution];
+//        [P8 solution];
 //        [P43 solution];
 //        [P81 solution];
 //        [P98 solution];
@@ -224,6 +225,7 @@ int main(int argc, char * argv[]) {
 //         [P996 solution];
 //        [P1028 solution];
 //        [P1047 solution];
+        [P1048 solution];
 //        [P1095 solution];
 //        [P1104 solution];
 //        [P1122 solution];
