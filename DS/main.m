@@ -27,6 +27,7 @@
 #import "SumOfTwoNo.h"
 #import "SumOfTwoNoInSortedArray.h"
 
+#import "P8.h"
 #import "P43.h"
 #import "P81.h"
 #import "P98.h"
@@ -143,6 +144,7 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNo solution];
 //        [SumOfTwoNoInSortedArray solution];
 //
+        [P8 solution];
 //        [P43 solution];
 //        [P81 solution];
 //        [P98 solution];
@@ -167,7 +169,7 @@ int main(int argc, char * argv[]) {
 //        [P366 solution];
 //        [P384 solution];
 //        [P387 solution];
-        [P394 solution];
+//        [P394 solution];
 //        [P415 solution];
 //        [P441 solution];
 //        [P442 solution];

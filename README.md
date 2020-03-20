@@ -8,6 +8,7 @@
 
 # LeetCode
 ## String
+    P8 - String to Integer (atoi) (Medium)
     P43 - Multiply Strings (Medium)
     P344 - Reverse String (Easy)
     P387 - First Unique Character in a String (Easy)
