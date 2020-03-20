@@ -34,8 +34,23 @@
 #import "P1048.h"
 
 @implementation P1048
-- (NSInteger)findLongest:(NSArray *)arr
+- (NSInteger)findLongest:(NSArray<NSString *> *)array
 {
+    NSMutableArray<NSString *> *arr = [NSMutableArray arrayWithArray:array];
+    //Sort arr
+    for(NSInteger i = 0; i < arr.count - 1; i++)
+    {
+        for(NSInteger j = i; j < arr.count; j++)
+        {
+            if(arr[i].length > arr[j].length)
+            {
+                //swap
+                NSString *temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
     NSMutableDictionary *adjacencyList =[[NSMutableDictionary alloc] init];
     
     for(NSString *item in arr)
@@ -61,11 +76,8 @@
     {
         [visited setObject:[NSNumber numberWithBool:NO] forKey:key];
     }
-    NSString *farthest;
     NSInteger count = 1, maxCount = 1;
-    
-    NSMutableDictionary *temp = [visited mutableCopy];
-    
+        
     NSString *start;
     for (NSString *item in arr) {
         NSArray *currentList =  [adjacencyList objectForKey:item];
@@ -73,15 +85,10 @@
         if(currentList.count > 0)
         {
             start = item;
-            break;
+            NSMutableDictionary *temp = [visited mutableCopy];
+            [self dfsHelper:adjacencyList visited:&temp startVertex:start count:count maxCount:&maxCount];
         }
     }
-    [self dfsHelper:adjacencyList visited:&temp startVertex:start farthestVertex:&farthest count:count maxCount:&maxCount];
-    
-    NSString *otherFarthest;
-    temp = [visited mutableCopy];
-    [self dfsHelper:adjacencyList visited:&temp startVertex:farthest farthestVertex:&otherFarthest count:count maxCount:&maxCount];
-    
     return maxCount;
 }
 
@@ -113,7 +120,7 @@
     
     return YES;
 }
-- (void)dfsHelper:(NSMutableDictionary *)adjList visited:(NSMutableDictionary ** )visited startVertex:(NSString *)start farthestVertex:(NSString **)farthest count:(NSInteger)count maxCount:(NSInteger *)maxCount
+- (void)dfsHelper:(NSMutableDictionary *)adjList visited:(NSMutableDictionary ** )visited startVertex:(NSString *)start count:(NSInteger)count maxCount:(NSInteger *)maxCount
 {
     [*visited setObject:[NSNumber numberWithBool:YES] forKey:start];
     count++;
@@ -125,9 +132,8 @@
             if(count > *maxCount)
             {
                 *maxCount = count;
-                *farthest = vertex;
             }
-            [self dfsHelper:adjList visited:visited startVertex:vertex farthestVertex:farthest count:count maxCount:maxCount];
+            [self dfsHelper:adjList visited:visited startVertex:vertex count:count maxCount:maxCount];
         }
     }
 }
@@ -138,6 +144,8 @@
     NSLog(@"%ld", (long)[case1 findLongest:@[@"a",@"b",@"ba",@"bca",@"bda",@"bdca"]]);
     NSLog(@"%ld", (long)[case1 findLongest:@[@"a",@"b",@"bca",@"bda",@"bdca"]]);
     NSLog(@"%ld", (long)[case1 findLongest:@[@"a",@"b",@"de",@"xyz",@"bda",@"bdca"]]);
+    NSLog(@"%ld", (long)[case1 findLongest:@[@"t",@"tx",@"ba",@"bda",@"bdca", @"bdcab"]]);
+    NSLog(@"%ld", (long)[case1 findLongest:@[@"t",@"tx",@"ba",@"bdcab",@"bda",@"bdca"]]);
 }
 
 @end
