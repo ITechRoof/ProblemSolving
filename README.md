@@ -14,6 +14,7 @@
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
     P415 - Add Strings (Easy)
+    P438 - Find All Anagrams in a String (Medium)
     P443 - String Compression (Easy)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
