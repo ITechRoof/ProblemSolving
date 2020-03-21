@@ -19,6 +19,7 @@
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
     P942 - DI String Match (Easy)
+    P984 - String Without AAA or BBB (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
     P1221 - Split a String in Balanced Strings (Easy)
