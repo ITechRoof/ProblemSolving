@@ -22,6 +22,7 @@
     P984 - String Without AAA or BBB (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
+    P1071 - Greatest Common Divisor of Strings (Easy)
     P1221 - Split a String in Balanced Strings (Easy)
     P1374 - Generate a String With Characters That Have Odd Counts (Easy)
     
