@@ -1,10 +1,10 @@
 # ProblemSolving
-	Linked List
-	Stack
-	Queue
-	Tree
-    Heap - Min & Max
-	N-ary Tree
+        Linked List
+        Stack
+        Queue
+        Tree
+        Heap - Min & Max
+        N-ary Tree
 
 # LeetCode
 ## String
