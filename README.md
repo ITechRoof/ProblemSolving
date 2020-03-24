@@ -23,6 +23,7 @@
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
     P1071 - Greatest Common Divisor of Strings (Easy)
+    P1209 - Remove All Adjacent Duplicates in String II (Medium)
     P1221 - Split a String in Balanced Strings (Easy)
     P1234 - Replace the Substring for Balanced String (Medium)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
