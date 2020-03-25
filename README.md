@@ -10,6 +10,7 @@
 ## String
     P8 - String to Integer (atoi) (Medium)
     P13 - Roman to Integer (Easy)
+    P14 - Longest Common Prefix (Easy)
     P43 - Multiply Strings (Medium)
     P344 - Reverse String (Easy)
     P387 - First Unique Character in a String (Easy)
