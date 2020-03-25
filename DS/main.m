@@ -28,6 +28,7 @@
 #import "SumOfTwoNoInSortedArray.h"
 
 #import "P8.h"
+#import "P13.h"
 #import "P43.h"
 #import "P81.h"
 #import "P98.h"
@@ -155,6 +156,7 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNoInSortedArray solution];
 //
 //        [P8 solution];
+        [P13 solution];
 //        [P43 solution];
 //        [P81 solution];
 //        [P98 solution];
@@ -240,7 +242,7 @@ int main(int argc, char * argv[]) {
 //        [P1071 solution];
 //        [P1095 solution];
 //        [P1104 solution];
-        [P1119 solution];
+//        [P1119 solution];
 //        [P1122 solution];
 //        [P1146 solution];
 //        [P1209 solution];
