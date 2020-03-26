@@ -8,6 +8,7 @@
 
 # LeetCode
 ## String
+    P3 - Longest Substring Without Repeating Characters (Medium)
     P8 - String to Integer (atoi) (Medium)
     P13 - Roman to Integer (Easy)
     P14 - Longest Common Prefix (Easy)
