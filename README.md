@@ -12,6 +12,7 @@
     P13 - Roman to Integer (Easy)
     P14 - Longest Common Prefix (Easy)
     P43 - Multiply Strings (Medium)
+    P151 - Reverse Words in a String (Medium)
     P344 - Reverse String (Easy)
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
