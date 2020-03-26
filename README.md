@@ -22,6 +22,7 @@
     P468 - Validate IP Address (Medium)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
+    P859 - Buddy Strings (Easy)
     P942 - DI String Match (Easy)
     P984 - String Without AAA or BBB (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
