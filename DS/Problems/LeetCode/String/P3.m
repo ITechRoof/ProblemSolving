@@ -49,6 +49,8 @@
             start++;
         }
     }
+    
+    longest = MAX(longest, str.length - start);
     return longest;
 }
 
@@ -57,7 +59,7 @@
     P3 *case1 = [[P3 alloc] init];
     NSLog(@"%ld", (long)[case1 lengthOfLongestSubstring:@"abcabcbb"]);
     NSLog(@"%ld", (long)[case1 lengthOfLongestSubstring:@"bbbbb"]);
-    NSLog(@"%ld", (long)[case1 lengthOfLongestSubstring:@"pwwkew"]);
+    NSLog(@"%ld", (long)[case1 lengthOfLongestSubstring:@"pppwpe"]);
 }
 
 @end
