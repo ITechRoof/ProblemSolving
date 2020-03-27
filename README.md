@@ -24,6 +24,7 @@
     P468 - Validate IP Address (Medium)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
+    P657 - Robot Return to Origin (Easy)
     P709 - To Lower Case (Easy)
     P791 - Custom Sort String (Medium)
     P824 - Goat Latin (Easy)
