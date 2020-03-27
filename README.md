@@ -31,6 +31,7 @@
     P824 - Goat Latin (Easy)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
+    P893 - Groups of Special-Equivalent Strings (Easy)
     P929 - Unique Email Addresses (Easy)
     P942 - DI String Match (Easy)
     P984 - String Without AAA or BBB (Medium)
