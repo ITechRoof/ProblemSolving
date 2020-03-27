@@ -30,6 +30,7 @@
     P824 - Goat Latin (Easy)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
+    P929 - Unique Email Addresses (Easy)
     P942 - DI String Match (Easy)
     P984 - String Without AAA or BBB (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
