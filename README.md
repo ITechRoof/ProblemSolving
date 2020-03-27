@@ -39,6 +39,7 @@
     P1221 - Split a String in Balanced Strings (Easy)
     P1234 - Replace the Substring for Balanced String (Medium)
     P1247 - Minimum Swaps to Make Strings Equal (Medium)
+    P1309 - Decrypt String from Alphabet to Integer Mapping (Easy)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
     P1347 - Minimum Number of Steps to Make Two Strings Anagram (Medium)
     P1370 - Increasing Decreasing String (Easy)
