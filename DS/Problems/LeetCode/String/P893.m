@@ -21,7 +21,7 @@
 //The group is the largest size possible (ie., there isn't a string S not in the group such that S is special equivalent to every string in the group)
 //Return the number of groups of special-equivalent strings from A.
 //
-// 
+//
 //Example 1:
 //
 //Input: ["abcd","cdab","cbad","xyzz","zzxy","zzyx"]
@@ -34,7 +34,7 @@
 //
 //Input: ["abc","acb","bac","bca","cab","cba"]
 //Output: 3
-// 
+//
 //
 //Note:
 //
@@ -71,6 +71,5 @@
     P893 *case1 = [[P893 alloc] init];
     NSLog(@"%ld", (long)[case1 numSpecialEquivGroups:@[@"abcd",@"cdab",@"cbad",@"xyzz",@"zzxy",@"zzyx"]]);
     NSLog(@"%ld", (long)[case1 numSpecialEquivGroups:@[@"abc",@"acb",@"bac",@"bca",@"cab",@"cba"]]);
-
 }
 @end

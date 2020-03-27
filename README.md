@@ -40,6 +40,7 @@
     P1071 - Greatest Common Divisor of Strings (Easy)
     P1108 - Defanging an IP Address (Easy)
     P1119 - Remove Vowels from a String (Easy)
+    P1189 - Maximum Number of Balloons (Easy)
     P1209 - Remove All Adjacent Duplicates in String II (Medium)
     P1221 - Split a String in Balanced Strings (Easy)
     P1234 - Replace the Substring for Balanced String (Medium)
