@@ -12,6 +12,7 @@
     P8 - String to Integer (atoi) (Medium)
     P13 - Roman to Integer (Easy)
     P14 - Longest Common Prefix (Easy)
+    P20 - Valid Parentheses (Easy)
     P43 - Multiply Strings (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
