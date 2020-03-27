@@ -16,6 +16,7 @@
     P58 - Length of Last Word (Easy)
     P151 - Reverse Words in a String (Medium)
     P344 - Reverse String (Easy)
+    P345 - Reverse Vowels of a String (Easy)
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
     P415 - Add Strings (Easy)
