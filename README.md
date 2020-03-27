@@ -24,6 +24,7 @@
     P468 - Validate IP Address (Medium)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
+    P791 - Custom Sort String (Medium)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
     P942 - DI String Match (Easy)
