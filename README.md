@@ -22,6 +22,7 @@
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
     P415 - Add Strings (Easy)
+    P434 - Number of Segments in a String (Easy)
     P438 - Find All Anagrams in a String (Medium)
     P443 - String Compression (Easy)
     P468 - Validate IP Address (Medium)
