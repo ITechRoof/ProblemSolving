@@ -85,6 +85,7 @@
     P565 - Array Nesting (Medium)
     P629 - K Inverse Pairs Array (Hard)
     P665Arr - Non-decreasing Array (Easy)
+    P686 - Repeated String Match (Easy)
     P697 - Degree of an Array (Easy)
     P805 - Split Array With Same Average (Hard)
     P852 - Peak Index in a Mountain Array (Easy)

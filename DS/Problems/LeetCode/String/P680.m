@@ -66,6 +66,5 @@
     [case1 validPalindrome:@"abca"] ? NSLog(@"Palindrome") : NSLog(@"Not Palindrome");
     [case1 validPalindrome:@"acdbefdca"] ? NSLog(@"Palindrome") : NSLog(@"Not Palindrome");
     [case1 validPalindrome:@"fbab"] ? NSLog(@"Palindrome") : NSLog(@"Not Palindrome");
-
 }
 @end
