@@ -27,6 +27,7 @@
     P434 - Number of Segments in a String (Easy)
     P438 - Find All Anagrams in a String (Medium)
     P443 - String Compression (Easy)
+    P459 - Repeated Substring Pattern (Easy)
     P468 - Validate IP Address (Medium)
     P520 - Detect Capital (Easy)
     P541 - Reverse String II (Easy)
