@@ -81,6 +81,7 @@
     P457 - Circular Array Loop (Medium)
     P525 - Contiguous Array (Medium)
     P526 - Beautiful Arrangement (Medium)
+    P551 - Student Attendance Record I (Easy)
     P561 - Array Partition I (Easy)
     P565 - Array Nesting (Medium)
     P629 - K Inverse Pairs Array (Hard)
