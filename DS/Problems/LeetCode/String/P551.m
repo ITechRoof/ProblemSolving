@@ -33,7 +33,8 @@
     {
         char c = [str characterAtIndex:i];
         if(c == 'A')
-           {
+        {
+            lateCount = 0;
             if(isAbsentBefore)
             {
                 return NO;
