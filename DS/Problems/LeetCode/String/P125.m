@@ -11,7 +11,7 @@
 @implementation P125
 - (BOOL)isAlphabet:(char)c
 {
-    if((c - 'A' >= 0 && c - 'Z' <= 26) || (c - 'a' >= 0 && c - 'z' <= 26))
+    if((c - 'A' >= 0 && c - 'A' <= 26) || (c - 'a' >= 0 && c - 'a' <= 26))
     {
         return YES;
     }
