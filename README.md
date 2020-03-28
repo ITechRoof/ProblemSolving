@@ -16,6 +16,7 @@
     P43 - Multiply Strings (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
+    P125 - Valid Palindrome (Easy)
     P151 - Reverse Words in a String (Medium)
     P344 - Reverse String (Easy)
     P345 - Reverse Vowels of a String (Easy)
