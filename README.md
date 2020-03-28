@@ -41,6 +41,7 @@
     P890 - Find and Replace Pattern (Medium)
     P893 - Groups of Special-Equivalent Strings (Easy)
     P917 - Reverse Only Letters (Easy)
+    P925 - Long Pressed Name (Easy)
     P929 - Unique Email Addresses (Easy)
     P942 - DI String Match (Easy)
     P984 - String Without AAA or BBB (Medium)
