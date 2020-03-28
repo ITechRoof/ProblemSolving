@@ -29,6 +29,7 @@
     P443 - String Compression (Easy)
     P468 - Validate IP Address (Medium)
     P520 - Detect Capital (Easy)
+    P541 - Reverse String II (Easy)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
     P657 - Robot Return to Origin (Easy)
