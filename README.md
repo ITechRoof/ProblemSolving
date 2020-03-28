@@ -34,6 +34,7 @@
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
     P657 - Robot Return to Origin (Easy)
+    P680 - Valid Palindrome II (Easy)
     P709 - To Lower Case (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
