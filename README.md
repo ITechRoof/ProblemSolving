@@ -32,6 +32,7 @@
     P709 - To Lower Case (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
+    P819 - Most Common Word (Easy)
     P824 - Goat Latin (Easy)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
