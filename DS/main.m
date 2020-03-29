@@ -166,6 +166,7 @@
 #import "P1261.h"
 #import "P1309.h"
 #import "P1312.h"
+#import "P1332.h"
 #import "P1339.h"
 #import "P1347.h"
 #import "P1370.h"
@@ -276,7 +277,7 @@ int main(int argc, char * argv[]) {
 //        [P686 solution];
 //        [P697 solution];
 //        [P709 solution];
-        [P788 solution];
+//        [P788 solution];
 //        [P791 solution];
 //        [P804 solution];
 //        [P805 solution];
@@ -334,6 +335,7 @@ int main(int argc, char * argv[]) {
 //        [P1261 solution];
 //        [P1309 solution];
 //        [P1312 solution];
+        [P1332 solution];
 //        [P1339 solution];
 //        [P1347 solution];
 //        [P1370 solution];
