@@ -39,6 +39,7 @@
     P657 - Robot Return to Origin (Easy)
     P680 - Valid Palindrome II (Easy)
     P709 - To Lower Case (Easy)
+    P788 - Rotated Digits (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
     P819 - Most Common Word (Easy)
