@@ -38,6 +38,7 @@
     P606 - Construct String from Binary Tree (Easy)
     P657 - Robot Return to Origin (Easy)
     P680 - Valid Palindrome II (Easy)
+    P696 - Count Binary Substrings (Easy)
     P709 - To Lower Case (Easy)
     P788 - Rotated Digits (Easy)
     P791 - Custom Sort String (Medium)

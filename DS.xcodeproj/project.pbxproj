@@ -158,7 +158,8 @@
 		28F108F62430864600582D5B /* P383.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F108F52430864600582D5B /* P383.m */; };
 		28F108F92430880B00582D5B /* P606.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F108F82430880B00582D5B /* P606.m */; };
 		28F108FC24308C6B00582D5B /* P788.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F108FB24308C6B00582D5B /* P788.m */; };
-		28F108FF243094E700582D5B /* P1332.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F108FE243094E700582D5B /* P1332.m */; };
+		28F109022430987600582D5B /* P696.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109012430987600582D5B /* P696.m */; };
+		28F109052430989600582D5B /* P1332.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109032430989600582D5B /* P1332.m */; };
 		28FD7BAA2411F6F2004084BE /* P215.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD7BA92411F6F2004084BE /* P215.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
@@ -482,8 +483,10 @@
 		28F108F82430880B00582D5B /* P606.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P606.m; path = LeetCode/String/P606.m; sourceTree = "<group>"; };
 		28F108FA24308C6B00582D5B /* P788.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P788.h; path = LeetCode/String/P788.h; sourceTree = "<group>"; };
 		28F108FB24308C6B00582D5B /* P788.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P788.m; path = LeetCode/String/P788.m; sourceTree = "<group>"; };
-		28F108FD243094E700582D5B /* P1332.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P1332.h; path = LeetCode/P1332.h; sourceTree = "<group>"; };
-		28F108FE243094E700582D5B /* P1332.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P1332.m; path = LeetCode/P1332.m; sourceTree = "<group>"; };
+		28F109002430987600582D5B /* P696.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P696.h; path = LeetCode/String/P696.h; sourceTree = "<group>"; };
+		28F109012430987600582D5B /* P696.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P696.m; path = LeetCode/String/P696.m; sourceTree = "<group>"; };
+		28F109032430989600582D5B /* P1332.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = P1332.m; path = LeetCode/String/P1332.m; sourceTree = "<group>"; };
+		28F109042430989600582D5B /* P1332.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P1332.h; path = LeetCode/String/P1332.h; sourceTree = "<group>"; };
 		28FD7BA82411F6F2004084BE /* P215.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P215.h; path = LeetCode/Array/P215.h; sourceTree = "<group>"; };
 		28FD7BA92411F6F2004084BE /* P215.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P215.m; path = LeetCode/Array/P215.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -622,19 +625,9 @@
 		28663D14241CA6A8002C0EE4 /* String */ = {
 			isa = PBXGroup;
 			children = (
+				28F109042430989600582D5B /* P1332.h */,
+				28F109032430989600582D5B /* P1332.m */,
 				281DFA8A242CC60800B80982 /* P3.h */,
-				28F108F42430864600582D5B /* P383.h */,
-				28F108FD243094E700582D5B /* P1332.h */,
-				28F108FE243094E700582D5B /* P1332.m */,
-				28F108F52430864600582D5B /* P383.m */,
-				28F108EE24307E7300582D5B /* P521.h */,
-				28F108F12430802B00582D5B /* P38.h */,
-				28F108FA24308C6B00582D5B /* P788.h */,
-				28F108FB24308C6B00582D5B /* P788.m */,
-				28F108F22430802B00582D5B /* P38.m */,
-				28F108EF24307E7300582D5B /* P521.m */,
-				28F108F72430880B00582D5B /* P606.h */,
-				28F108F82430880B00582D5B /* P606.m */,
 				281DFA8B242CC60800B80982 /* P3.m */,
 				28054A892424A1C800CA64C8 /* P8.h */,
 				28054A8A2424A1C800CA64C8 /* P8.m */,
@@ -646,6 +639,8 @@
 				2829B2A6242E42630070FECF /* P20.m */,
 				2829B2B1242F2A550070FECF /* P28.h */,
 				2829B2B2242F2A550070FECF /* P28.m */,
+				28F108F12430802B00582D5B /* P38.h */,
+				28F108F22430802B00582D5B /* P38.m */,
 				28054A5B24220E3B00CA64C8 /* P43.h */,
 				28054A5C24220E3B00CA64C8 /* P43.m */,
 				281DFA87242CC4B400B80982 /* P58.h */,
@@ -660,6 +655,8 @@
 				28663D19241CA962002C0EE4 /* P344.m */,
 				2829B29F242E33EB0070FECF /* P345.h */,
 				2829B2A0242E33EB0070FECF /* P345.m */,
+				28F108F42430864600582D5B /* P383.h */,
+				28F108F52430864600582D5B /* P383.m */,
 				28663D1E241E566D002C0EE4 /* P387.h */,
 				28663D1F241E566D002C0EE4 /* P387.m */,
 				28054A612423439C00CA64C8 /* P394.h */,
@@ -678,6 +675,8 @@
 				281DFA82242C90DB00B80982 /* P468.m */,
 				2829B2B4242F2CC60070FECF /* P520.h */,
 				2829B2B5242F2CC60070FECF /* P520.m */,
+				28F108EE24307E7300582D5B /* P521.h */,
+				28F108EF24307E7300582D5B /* P521.m */,
 				2829B2BA242F32F60070FECF /* P541.h */,
 				2829B2BB242F32F60070FECF /* P541.m */,
 				28F108E8242F6B2B00582D5B /* P551.h */,
@@ -686,6 +685,8 @@
 				28054A562421DF3400CA64C8 /* P557.m */,
 				28054A5E24233C5F00CA64C8 /* P567.h */,
 				28054A5F24233C5F00CA64C8 /* P567.m */,
+				28F108F72430880B00582D5B /* P606.h */,
+				28F108F82430880B00582D5B /* P606.m */,
 				2829B28D242DFF190070FECF /* P657.h */,
 				2829B28E242DFF190070FECF /* P657.m */,
 				2829B2C0242F612E0070FECF /* P680.h */,
@@ -694,6 +695,8 @@
 				2829B2C4242F68D10070FECF /* P686.m */,
 				2829B281242DE4ED0070FECF /* P709.h */,
 				2829B282242DE4ED0070FECF /* P709.m */,
+				28F108FA24308C6B00582D5B /* P788.h */,
+				28F108FB24308C6B00582D5B /* P788.m */,
 				281DFA90242DCCE300B80982 /* P791.h */,
 				281DFA91242DCCE300B80982 /* P791.m */,
 				2829B293242E07090070FECF /* P804.h */,
@@ -728,6 +731,8 @@
 				2829B27F242DE3840070FECF /* P1108.m */,
 				28101628242A045C00C6F40F /* P1119.h */,
 				28101629242A045C00C6F40F /* P1119.m */,
+				28F108EB24304D0500582D5B /* P1170.h */,
+				28F108EC24304D0500582D5B /* P1170.m */,
 				2829B299242E0ADA0070FECF /* P1189.h */,
 				2829B29A242E0ADA0070FECF /* P1189.m */,
 				281016222429CDD900C6F40F /* P1209.h */,
@@ -748,8 +753,8 @@
 				2829B285242DE6AE0070FECF /* P1370.m */,
 				28054A522420936800CA64C8 /* P1374.h */,
 				28054A532420936800CA64C8 /* P1374.m */,
-				28F108EB24304D0500582D5B /* P1170.h */,
-				28F108EC24304D0500582D5B /* P1170.m */,
+				28F109002430987600582D5B /* P696.h */,
+				28F109012430987600582D5B /* P696.m */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -1076,7 +1081,6 @@
 				2830EC3423FC158D00081A12 /* P896.m in Sources */,
 				2829B292242E00850070FECF /* P929.m in Sources */,
 				2829B2A1242E33EB0070FECF /* P345.m in Sources */,
-				28F108FF243094E700582D5B /* P1332.m in Sources */,
 				28DF9BBC23FCE0FB00389C6E /* P189.m in Sources */,
 				28054A9424260A1700CA64C8 /* P984.m in Sources */,
 				28054A9D2427515300CA64C8 /* P1312.m in Sources */,
@@ -1085,6 +1089,7 @@
 				2879BBDB23F80A44007CDC51 /* Edge.m in Sources */,
 				281DFA80242C78C400B80982 /* P151.m in Sources */,
 				2847AB8F23F3E220004C9A81 /* P590.m in Sources */,
+				28F109022430987600582D5B /* P696.m in Sources */,
 				281DFA92242DCCE300B80982 /* P791.m in Sources */,
 				28D5C5D52408B3EA00BDC2F8 /* P153.m in Sources */,
 				28054A9A24274E6A00CA64C8 /* P1347.m in Sources */,
@@ -1170,6 +1175,7 @@
 				2847AB9223F3F574004C9A81 /* NaryNode.m in Sources */,
 				28D5C5A22402C6A700BDC2F8 /* P852.m in Sources */,
 				28D5C5C624078C1400BDC2F8 /* P1213.m in Sources */,
+				28F109052430989600582D5B /* P1332.m in Sources */,
 				28EA257A23EC1DE6000D6774 /* P114.m in Sources */,
 				281016212429C91100C6F40F /* P1234.m in Sources */,
 				2841F3F023EBE37000096952 /* P662.m in Sources */,
