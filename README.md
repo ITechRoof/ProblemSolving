@@ -14,6 +14,7 @@
     P14 - Longest Common Prefix (Easy)
     P20 - Valid Parentheses (Easy)
     P28 - Implement strStr() (Easy)
+   Count and Say
     P43 - Multiply Strings (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
@@ -53,6 +54,7 @@
     P1071 - Greatest Common Divisor of Strings (Easy)
     P1108 - Defanging an IP Address (Easy)
     P1119 - Remove Vowels from a String (Easy)
+    P1170 - Compare Strings by Frequency of the Smallest Character (Easy)
     P1189 - Maximum Number of Balloons (Easy)
     P1209 - Remove All Adjacent Duplicates in String II (Medium)
     P1221 - Split a String in Balanced Strings (Easy)
@@ -105,7 +107,6 @@
     P1095 - Find in Mountain Array (Hard)
     P1122 - Relative Sort Array (Easy)
     P1146 - Snapshot Array (Medium)
-    P1170 - Compare Strings by Frequency of the Smallest Character (Easy)
     P1213 - Intersection of Three Sorted Arrays (Easy)
     P1243 - Array Transformation (Easy)
     P1250 - Check If It Is a Good Array (Hard)
