@@ -51,6 +51,7 @@
     P917 - Reverse Only Letters (Easy)
     P925 - Long Pressed Name (Easy)
     P929 - Unique Email Addresses (Easy)
+    P937 - Reorder Data in Log Files (Easy)
     P942 - DI String Match (Easy)
     P984 - String Without AAA or BBB (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)

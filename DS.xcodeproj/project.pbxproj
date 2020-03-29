@@ -160,6 +160,7 @@
 		28F108FC24308C6B00582D5B /* P788.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F108FB24308C6B00582D5B /* P788.m */; };
 		28F109022430987600582D5B /* P696.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109012430987600582D5B /* P696.m */; };
 		28F109052430989600582D5B /* P1332.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109032430989600582D5B /* P1332.m */; };
+		28F109082430B9B400582D5B /* P937.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109072430B9B400582D5B /* P937.m */; };
 		28FD7BAA2411F6F2004084BE /* P215.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD7BA92411F6F2004084BE /* P215.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
@@ -487,6 +488,8 @@
 		28F109012430987600582D5B /* P696.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P696.m; path = LeetCode/String/P696.m; sourceTree = "<group>"; };
 		28F109032430989600582D5B /* P1332.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = P1332.m; path = LeetCode/String/P1332.m; sourceTree = "<group>"; };
 		28F109042430989600582D5B /* P1332.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = P1332.h; path = LeetCode/String/P1332.h; sourceTree = "<group>"; };
+		28F109062430B9B400582D5B /* P937.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P937.h; path = LeetCode/String/P937.h; sourceTree = "<group>"; };
+		28F109072430B9B400582D5B /* P937.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P937.m; path = LeetCode/String/P937.m; sourceTree = "<group>"; };
 		28FD7BA82411F6F2004084BE /* P215.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P215.h; path = LeetCode/Array/P215.h; sourceTree = "<group>"; };
 		28FD7BA92411F6F2004084BE /* P215.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P215.m; path = LeetCode/Array/P215.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -625,8 +628,6 @@
 		28663D14241CA6A8002C0EE4 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				28F109042430989600582D5B /* P1332.h */,
-				28F109032430989600582D5B /* P1332.m */,
 				281DFA8A242CC60800B80982 /* P3.h */,
 				281DFA8B242CC60800B80982 /* P3.m */,
 				28054A892424A1C800CA64C8 /* P8.h */,
@@ -693,6 +694,8 @@
 				2829B2C1242F612E0070FECF /* P680.m */,
 				2829B2C3242F68D10070FECF /* P686.h */,
 				2829B2C4242F68D10070FECF /* P686.m */,
+				28F109002430987600582D5B /* P696.h */,
+				28F109012430987600582D5B /* P696.m */,
 				2829B281242DE4ED0070FECF /* P709.h */,
 				2829B282242DE4ED0070FECF /* P709.m */,
 				28F108FA24308C6B00582D5B /* P788.h */,
@@ -747,14 +750,16 @@
 				2829B288242DF8930070FECF /* P1309.m */,
 				28054A9B2427515300CA64C8 /* P1312.h */,
 				28054A9C2427515300CA64C8 /* P1312.m */,
+				28F109042430989600582D5B /* P1332.h */,
+				28F109032430989600582D5B /* P1332.m */,
 				28054A9824274E6A00CA64C8 /* P1347.h */,
 				28054A9924274E6A00CA64C8 /* P1347.m */,
 				2829B284242DE6AE0070FECF /* P1370.h */,
 				2829B285242DE6AE0070FECF /* P1370.m */,
 				28054A522420936800CA64C8 /* P1374.h */,
 				28054A532420936800CA64C8 /* P1374.m */,
-				28F109002430987600582D5B /* P696.h */,
-				28F109012430987600582D5B /* P696.m */,
+				28F109062430B9B400582D5B /* P937.h */,
+				28F109072430B9B400582D5B /* P937.m */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -1219,6 +1224,7 @@
 				2829B295242E07090070FECF /* P804.m in Sources */,
 				2847AB8023F179A7004C9A81 /* P98.m in Sources */,
 				28054A6024233C5F00CA64C8 /* P567.m in Sources */,
+				28F109082430B9B400582D5B /* P937.m in Sources */,
 				73F92FCB23BDFB170099CACD /* SumOfTwoNo.m in Sources */,
 				28D5C5A52403AD2400BDC2F8 /* P697.m in Sources */,
 				2847AB9523F3F5BC004C9A81 /* NaryTree.m in Sources */,
