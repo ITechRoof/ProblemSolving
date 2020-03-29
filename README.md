@@ -79,6 +79,7 @@
     P442 - Find All Duplicates in an Array (Medium)
     P448 - Find All Numbers Disappeared in an Array (Easy)
     P457 - Circular Array Loop (Medium)
+    P521 - Longest Uncommon Subsequence I (Easy)
     P525 - Contiguous Array (Medium)
     P526 - Beautiful Arrangement (Medium)
     P551 - Student Attendance Record I (Easy)
