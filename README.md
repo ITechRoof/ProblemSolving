@@ -14,7 +14,7 @@
     P14 - Longest Common Prefix (Easy)
     P20 - Valid Parentheses (Easy)
     P28 - Implement strStr() (Easy)
-   Count and Say
+    P38 - Count and Say (Easy)
     P43 - Multiply Strings (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
@@ -22,6 +22,7 @@
     P151 - Reverse Words in a String (Medium)
     P344 - Reverse String (Easy)
     P345 - Reverse Vowels of a String (Easy)
+    P383 - Ransom Note (Easy)
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
     P415 - Add Strings (Easy)
