@@ -104,6 +104,7 @@
     P1095 - Find in Mountain Array (Hard)
     P1122 - Relative Sort Array (Easy)
     P1146 - Snapshot Array (Medium)
+    P1170 - Compare Strings by Frequency of the Smallest Character (Easy)
     P1213 - Intersection of Three Sorted Arrays (Easy)
     P1243 - Array Transformation (Easy)
     P1250 - Check If It Is a Good Array (Hard)
