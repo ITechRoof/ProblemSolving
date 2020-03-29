@@ -35,6 +35,7 @@
     P541 - Reverse String II (Easy)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
+    P606 - Construct String from Binary Tree (Easy)
     P657 - Robot Return to Origin (Easy)
     P680 - Valid Palindrome II (Easy)
     P709 - To Lower Case (Easy)
