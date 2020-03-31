@@ -37,6 +37,7 @@
     P520 - Detect Capital (Easy)
     P537 - Complex Number Multiplication (Medium)
     P541 - Reverse String II (Easy)
+    P556 - Next Greater Element III (Medium)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
     P606 - Construct String from Binary Tree (Easy)
