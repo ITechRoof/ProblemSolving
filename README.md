@@ -21,6 +21,7 @@
     P67 - Add Binary (Easy)
     P71 - Simplify Path (Medium)
     P91 - Decode Ways (Medium)
+    P93 - Restore IP Addresses (Medium)
     P125 - Valid Palindrome (Easy)
     P151 - Reverse Words in a String (Medium)
     P165 - Compare Version Numbers (Medium)
