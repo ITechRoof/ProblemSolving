@@ -27,6 +27,7 @@
     P344 - Reverse String (Easy)
     P345 - Reverse Vowels of a String (Easy)
     P383 - Ransom Note (Easy)
+    P385 - Mini Parser (Medium)
     P387 - First Unique Character in a String (Easy)
     P394 - Decode String (Medium)
     P415 - Add Strings (Easy)
