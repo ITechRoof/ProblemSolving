@@ -37,6 +37,7 @@
     P459 - Repeated Substring Pattern (Easy)
     P468 - Validate IP Address (Medium)
     P520 - Detect Capital (Easy)
+    P522 - Longest Uncommon Subsequence II (Medium)
     P537 - Complex Number Multiplication (Medium)
     P541 - Reverse String II (Easy)
     P556 - Next Greater Element III (Medium)
