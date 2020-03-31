@@ -19,6 +19,7 @@
     P43 - Multiply Strings (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
+    P71 - Simplify Path (Medium)
     P91 - Decode Ways (Medium)
     P125 - Valid Palindrome (Easy)
     P151 - Reverse Words in a String (Medium)
