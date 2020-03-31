@@ -159,6 +159,7 @@
 #import "P1119.h"
 #import "P1122.h"
 #import "P1146.h"
+#import "P1169.h"
 #import "P1170.h"
 #import "P1189.h"
 #import "P1209.h"
@@ -203,7 +204,7 @@ int main(int argc, char * argv[]) {
 //        [SumOfTwoNoInSortedArray solution];
 //
 //        [P3 solution];
-        [P5 solution];
+//        [P5 solution];
 //        [P8 solution];
 //        [P13 solution];
 //        [P14 solution];
@@ -334,6 +335,7 @@ int main(int argc, char * argv[]) {
 //        [P1119 solution];
 //        [P1122 solution];
 //        [P1146 solution];
+        [P1169 solution];
 //        [P1170 solution];
 //        [P1189 solution];
 //        [P1209 solution];
