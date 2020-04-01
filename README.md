@@ -46,6 +46,7 @@
     P567 - Permutation in String (Medium)
     P606 - Construct String from Binary Tree (Easy)
     P657 - Robot Return to Origin (Easy)
+    P678 - Valid Parenthesis String (Medium)
     P680 - Valid Palindrome II (Easy)
     P696 - Count Binary Substrings (Easy)
     P709 - To Lower Case (Easy)
