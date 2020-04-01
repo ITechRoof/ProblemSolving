@@ -56,6 +56,7 @@
     P804 - Unique Morse Code Words (Easy)
     P819 - Most Common Word (Easy)
     P824 - Goat Latin (Easy)
+    P842 - Split Array into Fibonacci Sequence (Medium)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
     P893 - Groups of Special-Equivalent Strings (Easy)
