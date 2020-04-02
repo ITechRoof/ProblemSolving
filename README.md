@@ -60,6 +60,7 @@
     P816 - Ambiguous Coordinates (Medium)
     P819 - Most Common Word (Easy)
     P824 - Goat Latin (Easy)
+    P831 - Masking Personal Information (Medium)
     P842 - Split Array into Fibonacci Sequence (Medium)
     P848 - Shifting Letters (Medium)
     P859 - Buddy Strings (Easy)
