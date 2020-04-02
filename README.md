@@ -53,6 +53,7 @@
     P680 - Valid Palindrome II (Easy)
     P696 - Count Binary Substrings (Easy)
     P709 - To Lower Case (Easy)
+    P722 - Remove Comments (Medium)
     P788 - Rotated Digits (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
