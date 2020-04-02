@@ -19,6 +19,7 @@
     P28 - Implement strStr() (Easy)
     P38 - Count and Say (Easy)
     P43 - Multiply Strings (Medium)
+    P49 - Group Anagrams (Medium)
     P58 - Length of Last Word (Easy)
     P67 - Add Binary (Easy)
     P71 - Simplify Path (Medium)
