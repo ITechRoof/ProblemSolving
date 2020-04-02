@@ -64,6 +64,7 @@
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
     P893 - Groups of Special-Equivalent Strings (Easy)
+    P916 - Word Subsets (Medium)
     P917 - Reverse Only Letters (Easy)
     P925 - Long Pressed Name (Easy)
     P929 - Unique Email Addresses (Easy)
