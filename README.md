@@ -14,6 +14,7 @@
     P8 - String to Integer (atoi) (Medium)
     P13 - Roman to Integer (Easy)
     P14 - Longest Common Prefix (Easy)
+    P17 - Letter Combinations of a Phone Number (Medium)
     P20 - Valid Parentheses (Easy)
     P28 - Implement strStr() (Easy)
     P38 - Count and Say (Easy)
