@@ -57,6 +57,7 @@
     P788 - Rotated Digits (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
+    P816 - Ambiguous Coordinates (Medium)
     P819 - Most Common Word (Easy)
     P824 - Goat Latin (Easy)
     P842 - Split Array into Fibonacci Sequence (Medium)
