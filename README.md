@@ -79,6 +79,7 @@
     P966 - Vowel Spellchecker (Medium)
     P984 - String Without AAA or BBB (Medium)
     P1003 - Check If Word Is Valid After Substitutions (Medium)
+    P1023 - Camelcase Matching (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
     P1071 - Greatest Common Divisor of Strings (Easy)
