@@ -49,6 +49,7 @@
     P556 - Next Greater Element III (Medium)
     P557 - Reverse Words in a String III (Easy)
     P567 - Permutation in String (Medium)
+    P583 - Delete Operation for Two Strings (Medium)
     P606 - Construct String from Binary Tree (Easy)
     P657 - Robot Return to Origin (Easy)
     P678 - Valid Parenthesis String (Medium)
