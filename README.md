@@ -100,6 +100,7 @@
     P1332 - Remove Palindromic Subsequences (Easy)
     P1347 - Minimum Number of Steps to Make Two Strings Anagram (Medium)
     P1370 - Increasing Decreasing String (Easy)
+    P1371 - Find the Longest Substring Containing Vowels in Even Counts (Medium)
     P1374 - Generate a String With Characters That Have Odd Counts (Easy)
     
 ## Array
