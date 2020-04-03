@@ -29,6 +29,7 @@
     P151 - Reverse Words in a String (Medium)
     P165 - Compare Version Numbers (Medium)
     P227 - Basic Calculator II (Medium)
+    P316 - Remove Duplicate Letters (Hard) Same as P1081
     P344 - Reverse String (Easy)
     P345 - Reverse Vowels of a String (Easy)
     P383 - Ransom Note (Easy)
@@ -80,6 +81,7 @@
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
     P1071 - Greatest Common Divisor of Strings (Easy)
+    P1081 - Smallest Subsequence of Distinct Characters (Medium) 
     P1108 - Defanging an IP Address (Easy)
     P1119 - Remove Vowels from a String (Easy)
     P1138 - Alphabet Board Path (Medium)
