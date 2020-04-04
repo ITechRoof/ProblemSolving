@@ -152,6 +152,7 @@
     P1243 - Array Transformation (Easy)
     P1249 - Minimum Remove to Make Valid Parentheses (Medium)
     P1250 - Check If It Is a Good Array (Hard)
+    P1268 - Search Suggestions System (Medium)
 
 ## Tree
     P98 - Validate Binary Search Tree (Medium)
