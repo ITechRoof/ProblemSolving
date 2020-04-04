@@ -150,6 +150,7 @@
     P1146 - Snapshot Array (Medium)
     P1213 - Intersection of Three Sorted Arrays (Easy)
     P1243 - Array Transformation (Easy)
+    P1249 - Minimum Remove to Make Valid Parentheses (Medium)
     P1250 - Check If It Is a Good Array (Hard)
 
 ## Tree
