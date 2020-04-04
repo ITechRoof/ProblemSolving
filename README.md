@@ -16,6 +16,7 @@
     P14 - Longest Common Prefix (Easy)
     P17 - Letter Combinations of a Phone Number (Medium)
     P20 - Valid Parentheses (Easy)
+    P22 - Generate Parentheses (Medium)
     P28 - Implement strStr() (Easy)
     P38 - Count and Say (Easy)
     P43 - Multiply Strings (Medium)
