@@ -99,6 +99,7 @@
     P1247 - Minimum Swaps to Make Strings Equal (Medium)
     P1309 - Decrypt String from Alphabet to Integer Mapping (Easy)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
+    P1324 - Print Words Vertically (Medium)
     P1328 - Break a Palindrome (Medium)
     P1332 - Remove Palindromic Subsequences (Easy)
     P1347 - Minimum Number of Steps to Make Two Strings Anagram (Medium)
