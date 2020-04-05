@@ -59,6 +59,7 @@
     P696 - Count Binary Substrings (Easy)
     P709 - To Lower Case (Easy)
     P722 - Remove Comments (Medium)
+    P767 - Reorganize String (Medium)
     P788 - Rotated Digits (Easy)
     P791 - Custom Sort String (Medium)
     P804 - Unique Morse Code Words (Easy)
@@ -99,6 +100,7 @@
     P1233 - Remove Sub-Folders from the Filesystem (Medium)
     P1234 - Replace the Substring for Balanced String (Medium)
     P1247 - Minimum Swaps to Make Strings Equal (Medium)
+    P1268 - Search Suggestions System (Medium)
     P1309 - Decrypt String from Alphabet to Integer Mapping (Easy)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
     P1324 - Print Words Vertically (Medium)
@@ -155,7 +157,6 @@
     P1243 - Array Transformation (Easy)
     P1249 - Minimum Remove to Make Valid Parentheses (Medium)
     P1250 - Check If It Is a Good Array (Hard)
-    P1268 - Search Suggestions System (Medium)
 
 ## Tree
     P98 - Validate Binary Search Tree (Medium)
