@@ -52,6 +52,7 @@
     P647 *case1 = [[P647 alloc] init];
     NSLog(@"%ld", (long)[case1 countSubstrings:@"abc"]);
     NSLog(@"%ld", (long)[case1 countSubstrings:@"aaa"]);
+    NSLog(@"%ld", (long)[case1 countSubstrings:@"madam"]);
 }
 
 
