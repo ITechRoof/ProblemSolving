@@ -68,6 +68,7 @@
     P831 - Masking Personal Information (Medium)
     P842 - Split Array into Fibonacci Sequence (Medium)
     P848 - Shifting Letters (Medium)
+    P856 - Score of Parentheses (Medium)
     P859 - Buddy Strings (Easy)
     P890 - Find and Replace Pattern (Medium)
     P893 - Groups of Special-Equivalent Strings (Easy)
