@@ -94,6 +94,7 @@
     P1108 - Defanging an IP Address (Easy)
     P1119 - Remove Vowels from a String (Easy)
     P1138 - Alphabet Board Path (Medium)
+    P1156 - Swap For Longest Repeated Character Substring (Medium)
     P1169 - Invalid Transactions (Medium)
     P1170 - Compare Strings by Frequency of the Smallest Character (Easy)
     P1177 - Can Make Palindrome from Substring (Medium)
