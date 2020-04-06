@@ -196,6 +196,7 @@
     P814 - Binary tree pruning (Medium)
     P897 - Increasing Order Search Tree (Easy)
     P919 - Complete Binary Tree Inserter (Medium)  
+    P938 - Range Sum of BST (Easy)
     P958 - Check Completeness of a Binary Tree (Medium)
     P965 - Univalued Binary Tree (Easy)
     P968 - Binary Tree Cameras (Hard)
