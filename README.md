@@ -108,6 +108,7 @@
     P1268 - Search Suggestions System (Medium)
     P1297 - Maximum Number of Occurrences of a Substring (Medium)
     P1309 - Decrypt String from Alphabet to Integer Mapping (Easy)
+    P1311 - Get Watched Videos by Your Friends (Medium)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
     P1324 - Print Words Vertically (Medium)
     P1328 - Break a Palindrome (Medium)
