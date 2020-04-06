@@ -196,6 +196,7 @@
     P665 - Print tree in matrix (Medium)
     P700 - Search in a Binary Search Tree (Easy)
     P814 - Binary tree pruning (Medium)
+    P872 - Leaf-Similar Trees (Easy)
     P897 - Increasing Order Search Tree (Easy)
     P919 - Complete Binary Tree Inserter (Medium)  
     P938 - Range Sum of BST (Easy)
