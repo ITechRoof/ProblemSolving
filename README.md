@@ -106,6 +106,7 @@
     P1234 - Replace the Substring for Balanced String (Medium)
     P1247 - Minimum Swaps to Make Strings Equal (Medium)
     P1268 - Search Suggestions System (Medium)
+    P1297 - Maximum Number of Occurrences of a Substring (Medium)
     P1309 - Decrypt String from Alphabet to Integer Mapping (Easy)
     P1312 - Minimum Insertion Steps to Make a String Palindrome (Medium)
     P1324 - Print Words Vertically (Medium)
