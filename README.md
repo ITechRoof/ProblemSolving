@@ -190,6 +190,7 @@
     P608 - Tree Node (Medium)
     P617 - Merge Tree (Easy)
     P623 - Add one row to tree (Medium)
+    P637 - Average of Levels in Binary Tree (Easy)
     P654 - Maximum Binary Tree (Medium)
     P662 - Maximum width (Medium)
     P663 - Equal Tree Partition (Medium)
