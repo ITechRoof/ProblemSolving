@@ -102,6 +102,7 @@
 #import "P556.h"
 #import "P557.h"
 #import "P558.h"
+#import "P559.h"
 #import "P561.h"
 #import "P563.h"
 #import "P565.h"
@@ -128,6 +129,7 @@
 #import "P686.h"
 #import "P696.h"
 #import "P697.h"
+#import "P700.h"
 #import "P709.h"
 #import "P722.h"
 #import "P767.h"
@@ -321,6 +323,7 @@ int main(int argc, char * argv[]) {
 //        [P556 solution];
 //        [P557 solution];
 //        [P558 solution];
+        [P559 solution];
 //        [P561 solution];
 //        [P563 solution];
 //        [P565 solution];
@@ -347,6 +350,7 @@ int main(int argc, char * argv[]) {
 //        [P686 solution];
 //        [P696 solution];
 //        [P697 solution];
+//        [P700 solution];
 //        [P709 solution];
 //        [P722 solution];
 //        [P767 solution];
@@ -380,7 +384,7 @@ int main(int argc, char * argv[]) {
 //        [P929 solution];
 //        [P932 solution];
 //        [P937 solution];
-        [P938 solution];
+//        [P938 solution];
 //        [P941 solution];
 //        [P942 solution];
 //        [P958 solution];
