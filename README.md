@@ -205,6 +205,7 @@
     P979 - Distribute Coins (Medium)
     P987 -  Vertical Order Traversal of a Binary Tree (Medium)
     P993 - Cousins (Easy)
+    P1022 - Sum of Root To Leaf Binary Numbers (Easy)
     P1028 -  Recover a Tree From Preorder Traversal (Hard)
     P1104 - Path In Zigzag Labelled Binary Tree (Medium)
     P1245 - Tree Diameter (Medium)
