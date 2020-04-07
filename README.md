@@ -201,6 +201,7 @@
     P662 - Maximum width (Medium)
     P663 - Equal Tree Partition (Medium)
     P665 - Print tree in matrix (Medium)
+    P687 - Longest Univalue Path (Easy)
     P700 - Search in a Binary Search Tree (Easy)
     P783 - Minimum Distance Between BST Nodes (Easy)
     P814 - Binary tree pruning (Medium)

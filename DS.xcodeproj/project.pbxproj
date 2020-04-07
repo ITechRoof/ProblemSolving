@@ -222,6 +222,7 @@
 		28F109C5243C5DEF00582D5B /* P543.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109C4243C5DEF00582D5B /* P543.m */; };
 		28F109C8243C5F7E00582D5B /* P257.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109C7243C5F7E00582D5B /* P257.m */; };
 		28F109CB243C613000582D5B /* P107.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109CA243C613000582D5B /* P107.m */; };
+		28F109CE243C62D600582D5B /* P687.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F109CD243C62D600582D5B /* P687.m */; };
 		28FD7BAA2411F6F2004084BE /* P215.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD7BA92411F6F2004084BE /* P215.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
@@ -673,6 +674,8 @@
 		28F109C7243C5F7E00582D5B /* P257.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P257.m; path = LeetCode/Tree/P257.m; sourceTree = "<group>"; };
 		28F109C9243C613000582D5B /* P107.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P107.h; path = LeetCode/Tree/P107.h; sourceTree = "<group>"; };
 		28F109CA243C613000582D5B /* P107.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P107.m; path = LeetCode/Tree/P107.m; sourceTree = "<group>"; };
+		28F109CC243C62D600582D5B /* P687.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P687.h; path = LeetCode/Tree/P687.h; sourceTree = "<group>"; };
+		28F109CD243C62D600582D5B /* P687.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P687.m; path = LeetCode/Tree/P687.m; sourceTree = "<group>"; };
 		28FD7BA82411F6F2004084BE /* P215.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P215.h; path = LeetCode/Array/P215.h; sourceTree = "<group>"; };
 		28FD7BA92411F6F2004084BE /* P215.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P215.m; path = LeetCode/Array/P215.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -1055,6 +1058,8 @@
 			isa = PBXGroup;
 			children = (
 				2847AB7E23F179A7004C9A81 /* P98.h */,
+				28F109CC243C62D600582D5B /* P687.h */,
+				28F109CD243C62D600582D5B /* P687.m */,
 				28F109BA243C524900582D5B /* P653.h */,
 				28F109BB243C524900582D5B /* P653.m */,
 				28F109BD243C558F00582D5B /* P783.h */,
@@ -1389,6 +1394,7 @@
 				28F1099B243AF87C00582D5B /* P1297.m in Sources */,
 				28F1096E24375FFF00582D5B /* P1023.m in Sources */,
 				28F1095C2436FCED00582D5B /* P539.m in Sources */,
+				28F109CE243C62D600582D5B /* P687.m in Sources */,
 				28054A572421DF3400CA64C8 /* P557.m in Sources */,
 				28D5C59C2402BBC900BDC2F8 /* P441.m in Sources */,
 				2830EC3423FC158D00081A12 /* P896.m in Sources */,
