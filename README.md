@@ -178,6 +178,7 @@
     P226 - Invert tree (Easy)
     P310 - Minimum Height Trees (Medium)
     P366 - Find Leaves of Binary Tree (Medium)
+    P404 - Sum of Left Leaves (Easy)
     P538 - Convert to greatest BST (Easy)
     P530 - Minimum Absolute Difference in BST (Easy) - P783
     P545 - Boundary of Binary Tree (Medium)
