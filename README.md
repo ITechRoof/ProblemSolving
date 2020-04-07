@@ -174,6 +174,7 @@
     P108 - Convert Sorted List to Binary Search Tree (Medium)
     P110 - Is balanced tree (Easy)
     P111 - Minimum Depth of Binary Tree (Easy)
+    P112 - Path Sum (Easy)
     P114 - Flatten to linked list (Medium)
     P199 - Print Right View (Medium)
     P222 - Count Complete Tree Nodes (Medium)
