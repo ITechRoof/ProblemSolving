@@ -1,5 +1,5 @@
 //
-//  P109.h
+//  P108.h
 //  DS
 //
 //  Created by Kiruthika on 29/02/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface P109 : NSObject
+@interface P108 : NSObject
 
 + (void)solution;
 

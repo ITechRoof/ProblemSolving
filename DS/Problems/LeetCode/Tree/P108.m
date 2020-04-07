@@ -1,16 +1,16 @@
 //
-//  P109.m
+//  P108.m
 //  DS
 //
 //  Created by Kiruthika on 29/02/20.
 //  Copyright © 2020 Kiruthika Selvavinayagam. All rights reserved.
 //
 
-#import "P109.h"
+#import "P108.h"
 #import "Tree.h"
 #import "LinkedList.h"
 
-@implementation P109
+@implementation P108
 
 - (ListIntNode *)getMiddleFromList:(ListIntNode *)head
 {
@@ -51,7 +51,7 @@
 
 + (void)solution
 {
-    P109 *case1 = [[P109 alloc] init];
+    P108 *case1 = [[P108 alloc] init];
     LinkedIntList *list = [LinkedIntList listWithIntValues:@[@-10,@-3,@0,@5,@9]];
     Tree *tree = [[Tree alloc] initWithRoot:[case1 getTreeFromList:list.headPtr]];
     [tree printLevelOrder];
