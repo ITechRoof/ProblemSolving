@@ -173,6 +173,7 @@
     P107 - Binary Tree Level Order Traversal II (Easy)
     P108 - Convert Sorted List to Binary Search Tree (Medium)
     P110 - Is balanced tree (Easy)
+    P111 - Minimum Depth of Binary Tree (Easy)
     P114 - Flatten to linked list (Medium)
     P199 - Print Right View (Medium)
     P222 - Count Complete Tree Nodes (Medium)
