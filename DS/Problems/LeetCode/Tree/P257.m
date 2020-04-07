@@ -70,6 +70,6 @@
     Tree *tree = [P257 getTree];
     P257 *case1 = [[P257 alloc] init];
     
-    NSLog(@"%@", (long)[case1 binaryTreePaths:tree.root]);
+    NSLog(@"%@", [case1 binaryTreePaths:tree.root]);
 }
 @end
