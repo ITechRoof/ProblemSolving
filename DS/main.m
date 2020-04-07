@@ -134,6 +134,7 @@
 #import "P663.h"
 #import "P665.h"
 #import "P665Arr.h"
+#import "P669.h"
 #import "P671.h"
 #import "P678.h"
 #import "P680.h"
@@ -320,7 +321,7 @@ int main(int argc, char * argv[]) {
 //        [P404 solution];
 //        [P415 solution];
 //        [P434 solution];
-        [P437 solution];
+//        [P437 solution];
 //        [P438 solution];
 //        [P441 solution];
 //        [P442 solution];
@@ -370,6 +371,7 @@ int main(int argc, char * argv[]) {
 //        [P663 solution];
 //        [P665 solution];
 //        [P665Arr solution];
+        [P669 solution];
 //        [P671 solution];
 //        [P678 solution];
 //        [P680 solution];
