@@ -35,7 +35,6 @@
 
 #import "P235.h"
 #import "Tree.h"
-#import "QueueUsingArray.h"
 
 @implementation P235
 - (TreeNode *)lowestCommonAncestor:(TreeNode *)node p:(NSInteger)p q:(NSInteger)q
