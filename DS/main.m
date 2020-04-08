@@ -185,6 +185,7 @@
 #import "P938.h"
 #import "P941.h"
 #import "P942.h"
+#import "P951.h"
 #import "P958.h"
 #import "P961.h"
 #import "P965.h"
@@ -417,7 +418,7 @@ int main(int argc, char * argv[]) {
 //        [P889 solution];
 //        [P890 solution];
 //        [P893 solution];
-        [P894 solution];
+//        [P894 solution];
 //        [P896 solution];
 //        [P897 solution];
 //        [P905 solution];
@@ -433,6 +434,7 @@ int main(int argc, char * argv[]) {
 //        [P938 solution];
 //        [P941 solution];
 //        [P942 solution];
+        [P951 solution];
 //        [P958 solution];
 //        [P961 solution];
 //        [P965 solution];
