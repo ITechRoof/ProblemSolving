@@ -210,6 +210,7 @@
     P671 - Second Minimum Node In a Binary Tree (Easy)
     P687 - Longest Univalue Path (Easy)
     P700 - Search in a Binary Search Tree (Easy)
+    P701 - Insert into a Binary Search Tree (Medium)
     P783 - Minimum Distance Between BST Nodes (Easy)
     P814 - Binary tree pruning (Medium)
     P872 - Leaf-Similar Trees (Easy)
