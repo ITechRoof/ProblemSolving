@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)pop;
 - (id)top;
 - (BOOL)isEmpty;
+- (NSInteger)sizeOfStack;
 
 + (void)stackImplementation;
 

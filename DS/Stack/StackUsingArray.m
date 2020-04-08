@@ -32,6 +32,11 @@
     }
 }
 
+- (NSInteger)sizeOfStack
+{
+    return self.arr.count;
+}
+
 - (id)top {
 //    NSLog(@"%@", self.arr.lastObject);
     return self.arr.lastObject;
