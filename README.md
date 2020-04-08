@@ -214,6 +214,7 @@
     P783 - Minimum Distance Between BST Nodes (Easy)
     P814 - Binary tree pruning (Medium)
     P872 - Leaf-Similar Trees (Easy)
+    P889 - Construct Binary Tree from Preorder and Postorder Traversal (Medium)
     P897 - Increasing Order Search Tree (Easy)
     P919 - Complete Binary Tree Inserter (Medium)  
     P938 - Range Sum of BST (Easy)
