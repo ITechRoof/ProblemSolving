@@ -227,5 +227,6 @@
     P1104 - Path In Zigzag Labelled Binary Tree (Medium)
     P1245 - Tree Diameter (Medium)
     P1261 - Find Elements in a Contaminated Binary Tree (Medium)
+    P1302 - Deepest Leaves Sum (Medium)
     P1339 - Maximum Product of Splitted Binary Tree (Medium)
     P1379 - Find a Corresponding Node of a Binary Tree in a Clone of That Tree (Medium)
