@@ -232,6 +232,7 @@
     P1245 - Tree Diameter (Medium)
     P1261 - Find Elements in a Contaminated Binary Tree (Medium)
     P1302 - Deepest Leaves Sum (Medium)
+    P1305 - All Elements in Two Binary Search Trees (Medium)
     P1315 - Sum of Nodes with Even-Valued Grandparent (Medium)
     P1325 - Delete Leaves With a Given Value (Medium)
     P1339 - Maximum Product of Splitted Binary Tree (Medium)
