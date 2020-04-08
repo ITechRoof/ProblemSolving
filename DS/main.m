@@ -240,6 +240,7 @@
 #import "P1370.h"
 #import "P1371.h"
 #import "P1374.h"
+#import "P1379.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
@@ -331,7 +332,7 @@ int main(int argc, char * argv[]) {
 //        [P457 solution];
 //        [P459 solution];
 //        [P468 solution];
-        [P501 solution];
+//        [P501 solution];
 //        [P520 solution];
 //        [P521 solution];
 //        [P522 solution];
@@ -478,6 +479,7 @@ int main(int argc, char * argv[]) {
 //        [P1370 solution];
 //        [P1371 solution];
 //        [P1374 solution];
+        [P1379 solution];
     }
     return 0;
 }
