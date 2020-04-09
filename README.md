@@ -166,6 +166,7 @@
     P1250 - Check If It Is a Good Array (Hard)
 
 ## Tree
+    P94 - Binary Tree Inorder Traversal (Medium)
     P98 - Validate Binary Search Tree (Medium)
     P100 - Same tree (Easy)
     P101 - Symmetric tree (Easy)
