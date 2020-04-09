@@ -58,6 +58,7 @@
 #import "P112.h"
 #import "P114.h"
 #import "P125.h"
+#import "P144.h"
 #import "P151.h"
 #import "P153.h"
 #import "P165.h"
@@ -317,6 +318,7 @@ int main(int argc, char * argv[]) {
 //        [P112 solution];
 //        [P114 solution];
 //        [P125 solution];
+        [P144 solution];
 //        [P151 solution];
 //        [P153 solution];
 //        [P165 solution];
@@ -356,7 +358,7 @@ int main(int argc, char * argv[]) {
 //        [P459 solution];
 //        [P468 solution];
 //        [P501 solution];
-        [P508 solution];
+//        [P508 solution];
 //        [P513 solution];
 //        [P515 solution];
 //        [P520 solution];
