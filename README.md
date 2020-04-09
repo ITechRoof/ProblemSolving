@@ -215,6 +215,7 @@
     P665 - Print tree in matrix (Medium)
     P669 - Trim a Binary Search Tree (Easy)
     P671 - Second Minimum Node In a Binary Tree (Easy)
+    P684 - Redundant Connection (Medium)
     P687 - Longest Univalue Path (Easy)
     P700 - Search in a Binary Search Tree (Easy)
     P701 - Insert into a Binary Search Tree (Medium)
