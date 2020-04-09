@@ -184,6 +184,7 @@
     P310 - Minimum Height Trees (Medium)
     P366 - Find Leaves of Binary Tree (Medium)
     P404 - Sum of Left Leaves (Easy)
+    P429 - N-ary Tree Level Order Traversal (Medium)
     P437 - Path Sum III (Easy)
     P501 - Find Mode in Binary Search Tree (Easy)
     P538 - Convert to greatest BST (Easy)
