@@ -220,6 +220,7 @@
     P701 - Insert into a Binary Search Tree (Medium)
     P783 - Minimum Distance Between BST Nodes (Easy)
     P814 - Binary tree pruning (Medium)
+    P865 - Smallest Subtree with all the Deepest Nodes (Medium)
     P872 - Leaf-Similar Trees (Easy)
     P889 - Construct Binary Tree from Preorder and Postorder Traversal (Medium)
     P894 - All Possible Full Binary Trees (Medium)
