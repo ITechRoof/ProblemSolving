@@ -180,6 +180,7 @@
     P199 - Print Right View (Medium)
     P222 - Count Complete Tree Nodes (Medium)
     P226 - Invert tree (Easy)
+    P230 - Kth Smallest Element in a BST (Medium)
     P235 - Lowest Common Ancestor of a Binary Search Tree (Easy)
     P257 - Binary Tree Paths (Easy)
     P310 - Minimum Height Trees (Medium)
