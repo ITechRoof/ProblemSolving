@@ -227,6 +227,7 @@
     P979 - Distribute Coins (Medium)
     P987 -  Vertical Order Traversal of a Binary Tree (Medium)
     P993 - Cousins (Easy)
+    P998 - Maximum Binary Tree II (Medium)
     P1008 - Construct Binary Search Tree from Preorder Traversal (Medium)
     P1022 - Sum of Root To Leaf Binary Numbers (Easy)
     P1026 - Maximum Difference Between Node and Ancestor (Medium)
