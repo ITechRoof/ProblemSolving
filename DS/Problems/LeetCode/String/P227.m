@@ -49,7 +49,7 @@
             num = num * 10 + (c - '0');
         }
         
-        if(c != ' ' || i == str.length - 1)
+        if((c != ' ' && ![self isNumber:c]) || i == str.length - 1)
         {
             if(operand == '+')
             {
@@ -86,6 +86,6 @@
     P227 *case1 = [[P227 alloc] init];
     NSLog(@"%ld", (long)[case1 calculate:@"3+2*2"]);
     NSLog(@"%ld", (long)[case1 calculate:@"3/2"]);
-    NSLog(@"%ld", (long)[case1 calculate:@" 3+5 / 2 "]);
+    NSLog(@"%ld", (long)[case1 calculate:@" 3+15 / 2 "]);
 }
 @end

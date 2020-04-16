@@ -254,6 +254,7 @@
 		28F10A25243F274400582D5B /* P144.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F10A24243F274400582D5B /* P144.m */; };
 		28F10A28243F30E000582D5B /* P865.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F10A27243F30E000582D5B /* P865.m */; };
 		28F10A2B243F348800582D5B /* P684.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F10A2A243F348800582D5B /* P684.m */; };
+		28F10A2E2440209A00582D5B /* P102.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F10A2D2440209A00582D5B /* P102.m */; };
 		28FD7BAA2411F6F2004084BE /* P215.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FD7BA92411F6F2004084BE /* P215.m */; };
 		73A50DCE23C2F4AD00ED305E /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DCD23C2F4AD00ED305E /* Queue.m */; };
 		73A50DD123C2F4CD00ED305E /* QueueUsingArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A50DD023C2F4CC00ED305E /* QueueUsingArray.m */; };
@@ -274,6 +275,19 @@
 		73F92FC823BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F92FC723BDFAFF0099CACD /* SumOfTwoNoInSortedArray.m */; };
 		73F92FCB23BDFB170099CACD /* SumOfTwoNo.m in Sources */ = {isa = PBXBuildFile; fileRef = 73F92FCA23BDFB170099CACD /* SumOfTwoNo.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28F10A40244053A200582D5B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		28054A522420936800CA64C8 /* P1374.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P1374.h; path = LeetCode/String/P1374.h; sourceTree = "<group>"; };
@@ -769,6 +783,8 @@
 		28F10A27243F30E000582D5B /* P865.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P865.m; path = LeetCode/Tree/P865.m; sourceTree = "<group>"; };
 		28F10A29243F348800582D5B /* P684.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P684.h; path = LeetCode/Tree/P684.h; sourceTree = "<group>"; };
 		28F10A2A243F348800582D5B /* P684.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P684.m; path = LeetCode/Tree/P684.m; sourceTree = "<group>"; };
+		28F10A2C2440209A00582D5B /* P102.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P102.h; path = LeetCode/Tree/P102.h; sourceTree = "<group>"; };
+		28F10A2D2440209A00582D5B /* P102.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P102.m; path = LeetCode/Tree/P102.m; sourceTree = "<group>"; };
 		28FD7BA82411F6F2004084BE /* P215.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P215.h; path = LeetCode/Array/P215.h; sourceTree = "<group>"; };
 		28FD7BA92411F6F2004084BE /* P215.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = P215.m; path = LeetCode/Array/P215.m; sourceTree = "<group>"; };
 		73A50DCC23C2F4AD00ED305E /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -866,6 +882,8 @@
 				28663D08241B33DB002C0EE4 /* P805.m */,
 				28D5C5A02402C6A700BDC2F8 /* P852.h */,
 				28D5C5A12402C6A700BDC2F8 /* P852.m */,
+				28663D10241B58C4002C0EE4 /* P869.h */,
+				28663D11241B58C4002C0EE4 /* P869.m */,
 				2830EC3223FC158D00081A12 /* P896.h */,
 				2830EC3323FC158D00081A12 /* P896.m */,
 				28D5C5A62403AD3A00BDC2F8 /* P905.h */,
@@ -882,24 +900,22 @@
 				28D5C5C2240786C600BDC2F8 /* P961.m */,
 				28DF9BC023FCE12000389C6E /* P977.h */,
 				28DF9BC123FCE12000389C6E /* P977.m */,
+				281DFA93242DD07400B80982 /* P989.h */,
+				281DFA94242DD07400B80982 /* P989.m */,
 				28B9B1F02415E2DF00D0E600 /* P996.h */,
 				28B9B1F12415E2DF00D0E600 /* P996.m */,
 				28D5C5CD2407A11200BDC2F8 /* P1095.h */,
 				28D5C5CE2407A11200BDC2F8 /* P1095.m */,
 				28D5C5AC2403AD6100BDC2F8 /* P1122.h */,
 				28D5C5AD2403AD6100BDC2F8 /* P1122.m */,
+				28663D0A241B4F89002C0EE4 /* P1146.h */,
+				28663D0B241B4F89002C0EE4 /* P1146.m */,
 				28D5C5C424078C1400BDC2F8 /* P1213.h */,
 				28D5C5C524078C1400BDC2F8 /* P1213.m */,
 				28D5C5C72407910C00BDC2F8 /* P1243.h */,
 				28D5C5C82407910C00BDC2F8 /* P1243.m */,
-				28663D0A241B4F89002C0EE4 /* P1146.h */,
-				28663D0B241B4F89002C0EE4 /* P1146.m */,
 				28663D0D241B5631002C0EE4 /* P1250.h */,
 				28663D0E241B5631002C0EE4 /* P1250.m */,
-				28663D10241B58C4002C0EE4 /* P869.h */,
-				28663D11241B58C4002C0EE4 /* P869.m */,
-				281DFA93242DD07400B80982 /* P989.h */,
-				281DFA94242DD07400B80982 /* P989.m */,
 			);
 			name = Array;
 			sourceTree = "<group>";
@@ -1151,16 +1167,6 @@
 			isa = PBXGroup;
 			children = (
 				28F10A14243F199100582D5B /* P94.h */,
-				28F10A20243F20D900582D5B /* P508.h */,
-				28F10A23243F274400582D5B /* P144.h */,
-				28F10A24243F274400582D5B /* P144.m */,
-				28F10A26243F30DF00582D5B /* P865.h */,
-				28F10A27243F30E000582D5B /* P865.m */,
-				28F10A29243F348800582D5B /* P684.h */,
-				28F10A2A243F348800582D5B /* P684.m */,
-				28F10A21243F20D900582D5B /* P508.m */,
-				28F10A1D243F1F6C00582D5B /* P230.h */,
-				28F10A1E243F1F6C00582D5B /* P230.m */,
 				28F10A15243F199200582D5B /* P94.m */,
 				2847AB7E23F179A7004C9A81 /* P98.h */,
 				2847AB7F23F179A7004C9A81 /* P98.m */,
@@ -1168,6 +1174,8 @@
 				28B11AD823E979BF006E0A5E /* P100.m */,
 				28B11AD423E96792006E0A5E /* P101.h */,
 				28B11AD523E96792006E0A5E /* P101.m */,
+				28F10A2C2440209A00582D5B /* P102.h */,
+				28F10A2D2440209A00582D5B /* P102.m */,
 				2847AB9623F401C6004C9A81 /* P104.h */,
 				2847AB9723F401C6004C9A81 /* P104.m */,
 				28F109C9243C613000582D5B /* P107.h */,
@@ -1182,12 +1190,16 @@
 				28F109D3243C7ACF00582D5B /* P112.m */,
 				28EA257823EC1DE6000D6774 /* P114.h */,
 				28EA257923EC1DE6000D6774 /* P114.m */,
+				28F10A23243F274400582D5B /* P144.h */,
+				28F10A24243F274400582D5B /* P144.m */,
 				28EA257B23ED07B9000D6774 /* P199.h */,
 				28EA257C23ED07B9000D6774 /* P199.m */,
 				2847AB8123F2AEDD004C9A81 /* P222.h */,
 				2847AB8223F2AEDD004C9A81 /* P222.m */,
 				28B11AE223EBCCBB006E0A5E /* P226.h */,
 				28B11AE323EBCCBB006E0A5E /* P226.m */,
+				28F10A1D243F1F6C00582D5B /* P230.h */,
+				28F10A1E243F1F6C00582D5B /* P230.m */,
 				28F109D8243C8D6500582D5B /* P235.h */,
 				28F109D9243C8D6500582D5B /* P235.m */,
 				28F109C6243C5F7E00582D5B /* P257.h */,
@@ -1204,6 +1216,8 @@
 				28F109DC243C958900582D5B /* P437.m */,
 				28F109E1243CA6B000582D5B /* P501.h */,
 				28F109E2243CA6B000582D5B /* P501.m */,
+				28F10A20243F20D900582D5B /* P508.h */,
+				28F10A21243F20D900582D5B /* P508.m */,
 				28F10A17243F1C8400582D5B /* P513.h */,
 				28F10A18243F1C8400582D5B /* P513.m */,
 				28F10A1A243F1DFC00582D5B /* P515.h */,
@@ -1250,6 +1264,8 @@
 				28F109DF243CA46800582D5B /* P669.m */,
 				28F109D5243C86B700582D5B /* P671.h */,
 				28F109D6243C86B700582D5B /* P671.m */,
+				28F10A29243F348800582D5B /* P684.h */,
+				28F10A2A243F348800582D5B /* P684.m */,
 				28F109CC243C62D600582D5B /* P687.h */,
 				28F109CD243C62D600582D5B /* P687.m */,
 				28F109A8243B344900582D5B /* P700.h */,
@@ -1260,6 +1276,8 @@
 				28F109BE243C559000582D5B /* P783.m */,
 				28EA257223EC03EA000D6774 /* P814.h */,
 				28EA257323EC03EA000D6774 /* P814.m */,
+				28F10A26243F30DF00582D5B /* P865.h */,
+				28F10A27243F30E000582D5B /* P865.m */,
 				28F109B4243B4F9300582D5B /* P872.h */,
 				28F109B5243B4F9300582D5B /* P872.m */,
 				28F109F6243DA76B00582D5B /* P889.h */,
@@ -1485,6 +1503,7 @@
 				73ECBD5823B4AFB800753D66 /* Sources */,
 				73ECBD5923B4AFB800753D66 /* Frameworks */,
 				73ECBD5A23B4AFB800753D66 /* Resources */,
+				28F10A40244053A200582D5B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1731,6 +1750,7 @@
 				2829B29B242E0ADA0070FECF /* P1189.m in Sources */,
 				2847AB8623F3C926004C9A81 /* P958.m in Sources */,
 				28F108ED24304D0500582D5B /* P1170.m in Sources */,
+				28F10A2E2440209A00582D5B /* P102.m in Sources */,
 				28F1092C24337DFA00582D5B /* P93.m in Sources */,
 				28F109EC243D987A00582D5B /* P701.m in Sources */,
 				28F109C8243C5F7E00582D5B /* P257.m in Sources */,

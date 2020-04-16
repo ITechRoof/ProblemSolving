@@ -170,6 +170,7 @@
     P98 - Validate Binary Search Tree (Medium)
     P100 - Same tree (Easy)
     P101 - Symmetric tree (Easy)
+    P102 - Binary Tree Level Order Traversal (Medium)
     P104 - Maximum Depth of Binary Tree (Easy)
     P107 - Binary Tree Level Order Traversal II (Easy)
     P108 - Convert Sorted List to Binary Search Tree (Medium)

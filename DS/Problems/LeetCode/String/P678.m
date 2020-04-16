@@ -42,9 +42,9 @@
         else if(c == ')')
         {
             if(low > 0)
-                       {
-                           low--;
-                       }
+            {
+                low--;
+            }
             high--;
         }
         else
