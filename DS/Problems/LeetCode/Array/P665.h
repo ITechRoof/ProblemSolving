@@ -1,5 +1,5 @@
 //
-//  P665Arr.h
+//  P665.h
 //  DS
 //
 //  Created by Kiruthika on 26/02/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface P665Arr : NSObject
+@interface P665 : NSObject
 
 + (void)solution;
 

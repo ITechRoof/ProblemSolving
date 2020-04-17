@@ -1,14 +1,14 @@
 //
-//  P665Arr.m
+//  P665.m
 //  DS
 //
 //  Created by Kiruthika on 26/02/20.
 //  Copyright © 2020 Kiruthika Selvavinayagam. All rights reserved.
 //
 
-#import "P665Arr.h"
+#import "P665.h"
 
-@implementation P665Arr
+@implementation P665
 
 - (BOOL)canMadeIncreasing:(NSArray *)arr
 {
@@ -44,7 +44,7 @@
 
 + (void)solution
 {
-    P665Arr *case1 = [[P665Arr alloc] init];
+    P665 *case1 = [[P665 alloc] init];
     [case1 canMadeIncreasing:@[@4, @2, @3]] ? NSLog(@"Can be made increasing") : NSLog(@"Cannot be made increasing");
 }
 @end

@@ -1,5 +1,5 @@
 //
-//  P665.m
+//  P655.m
 //  DS
 //
 //  Created by Kiruthika on 06/02/20.
@@ -49,11 +49,11 @@
 // ["4", "",  "8", "",  "9", "", "1", "",  "1",  "",  "1",  "",  "1", "", "1"]]
 //Note: The height of binary tree is in the range of [1, 10].
 
-#import "P665.h"
+#import "P655.h"
 #import "Tree.h"
 #import "QueueUsingArray.h"
 
-@implementation P665
+@implementation P655
 
 - (NSInteger)height:(TreeNode *)node
 {
@@ -173,8 +173,8 @@
 
 + (void)solution
 {
-    Tree *tree = [P665 getTree];
-    P665 *case1 = [[P665 alloc] init];
+    Tree *tree = [P655 getTree];
+    P655 *case1 = [[P655 alloc] init];
     
     NSArray *arr = [case1 getPrintMatrixForTree:tree.root];
     

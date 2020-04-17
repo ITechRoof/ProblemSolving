@@ -1,5 +1,5 @@
 //
-//  P665.h
+//  P655.h
 //  DS
 //
 //  Created by Kiruthika on 06/02/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface P665 : NSObject
+@interface P655 : NSObject
 
 + (void)solution;
 
