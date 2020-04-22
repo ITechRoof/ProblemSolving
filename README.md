@@ -164,6 +164,7 @@
     P1243 - Array Transformation (Easy)
     P1249 - Minimum Remove to Make Valid Parentheses (Medium)
     P1250 - Check If It Is a Good Array (Hard)
+    P1295 - Find Numbers with Even Number of Digits (Easy)
 
 ## Tree
     P94 - Binary Tree Inorder Traversal (Medium)
