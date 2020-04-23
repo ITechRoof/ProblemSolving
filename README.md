@@ -87,6 +87,7 @@
     P984 - String Without AAA or BBB (Medium)
     P1003 - Check If Word Is Valid After Substitutions (Medium)
     P1016 - Binary String With Substrings Representing 1 To N (Medium)
+    P1021 - Remove Outermost Parentheses (Easy)
     P1023 - Camelcase Matching (Medium)
     P1047 - Remove All Adjacent Duplicates In String (Easy)
     P1048 - Longest String Chain (Medium)
